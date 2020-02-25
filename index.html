@@ -11,102 +11,644 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   <link href="index.css" rel="stylesheet">
+  <link href="reset.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="container-fluid">
   <main>
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light sticky-top col-12">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top container-fluid  d-flex flex-column flex-nowrap">
 
-<div class="container-fluid col-12">
- <div class="col-2 weather-date">
- <div class="weather">
- <p> <i class="fas fa-cloud-sun"></i>27°Lagos, NG ></p>
- </div>
-<div class="date">
-  <time datetime="25-02-2020">Tue,Feb 25,2020</time>
+      <div class="container-fluid col-12 upper-nav">
+        <div class="col-2 weather-date">
+          <div class="weather">
+            <p> <i class="fas fa-cloud-sun-rain"></i>27°Lagos, NG ></p>
+          </div>
+          <div class="date">
+            <time datetime="25-02-2020">Tue,Feb 25,2020</time>
+          </div>
+        </div>
+
+        <a href="#" class="navbar-brand col-7 text-center"> <img src="images/svgexport-1.png" alt="logo"></a>
+        <div class="col-3 subscribe">
+          <h4>SIGN IN</h4> <button class="btn btn-outline-light btn-lg">SUBSCRIBE ></button>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="container-fluid navlinks">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">U.S</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">World</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Business</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Tech & Science</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Culture</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Newsgeek</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Sports</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Health</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">The Debate</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Vantage</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Weather</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <form action="get">
+                  <input type="text" placeholder="Search"> <i class="fas fa-search"></i>
+                </form>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+
+    <!-- Featured stories -->
+    <section class="row main">
+      <section class="container-fluid col-lg-3 col1">
+        <div class="featured-stories">
+          <h4 class="featured"> FEATURED STORIES</h4>
+          <a href="#" class="wrap">U.S.
+            <img src="images/coronavirus.webp" alt="coronavirus" class="card-img-top">
+          </a>
+          <h3 class="img-title">Coronavirus Update: Cases Outside China Spike 26 Percent in Single Day</h3>
+          <p>On Monday, the European Commission announced 232 million euros would be mobilized to help fight the virus.
+          </p>
+          <hr class="my-4">
+          <p>South Korea Has Second Most Coronavirus Cases After China, President Says Country Faces 'Grave Turning
+            Point'</p>
+          <hr class="my-4">
+        </div>
+        <!-- culture -->
+        <div class="culture">
+          <a href="#" class="wrap">CULTURE
+            <img src="images/annabella-sciorra.webp" alt="coronavirus" class="card-img-top">
+          </a>
+          <h3 class="img-title">Annabella Sciorra Thanked by Celebrities After Harvey Weinstein Verdict</h3>
+          <p>After providing testimony against the Hollywood movie producer, the name of actress Annabella Sciorra was
+            trending on Twitter by users following the conviction of Harvey Weinstein.
+          </p>
+        </div>
+        <!-- newsgeek -->
+        <div class="newsgeek mt-4">
+          <a href="#" class="wrap">NEWSGEEK
+            <img src="images/hiddenfig.webp" alt="coronavirus" class="card-img-top">
+          </a>
+          <h3 class="img-title">Five Facts About Late NASA 'Hidden Figures' Mathematician Katherine Johnson</h3>
+          <p> Here are five facts about the extraordinary NASA mathematician, Katherine Johnson, who died at the age of
+            101, whose trailblazing accomplishments were depicted in "Hidden Figures."
+          </p>
+        </div>
+
+
+      </section>
+
+      <section class="container-fluid col-lg-5 col2">
+        <div class="top-story">
+          <h4 class="featured"> TOP STORIES</h4>
+          <a href="#" class="wrap">U.S.
+            <img src="images/harvey-weinstein.webp" alt="coronavirus" class="card-img-top">
+          </a>
+          <h3 class="img-title">Harvey Weinstein Convicted on Two Counts in Sexual Assault Case</h3>
+          <p>The disgraced movie producer was found guilty of rape and a felony sex crime but was acquitted of other
+            charges, including predatory sexual assault.
+          </p>
+        </div>
+
+        <div class="row culture-travel mt-4">
+          <h4 class="featured"> CULTURE & TRAVEL</h4>
+          <div class="row">
+            <div class="col-lg-4">
+              <a href="#" class="wrap">News
+                <img src="images/coronaitaly.webp" alt="coronavirus" class="card-img-top">
+              </a>
+              <h3 class="img-title">Coronavirus Italy Update: Europe's First Major Outbreak Sees Fourth Death</h3>
+            </div>
+
+            <div class="col-lg-4">
+              <a href="#" class="wrap">Books
+                <img src="images/cakebook.webp" alt="coronavirus" class="card-img-top">
+              </a>
+              <h3 class="img-title">40 Must-Read Fiction and Nonfiction Books to Savor This Spring</h3>
+            </div>
+
+            <div class="col-lg-4">
+              <a href="#" class="wrap">News
+                <img src="images/travel.webp" alt="coronavirus" class="card-img-top">
+              </a>
+              <h3 class="img-title">Sacred Journeys Around the World</h3>
+            </div>
+
+            <div class="container-fluid more mt-5">
+              <h4 class="featured">MORE STORIES </h4>
+              <hr class="my-4">
+              <div class="more-news-info col-12">
+                <div class="row mt-3">
+                  <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
+                  <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong>
+                    Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                    make
+                    way for "new leadership" in the Democratic party.</p>
+                </div>
+                <hr class="my-4">
+
+                <div class="row mt-3">
+                  <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
+                  <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong>
+                    Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                    make
+                    way for "new leadership" in the Democratic party.</p>
+                </div>
+                <hr class="my-4">
+
+                <div class="row mt-3">
+                  <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
+                  <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong>
+                    Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                    make
+                    way for "new leadership" in the Democratic party.</p>
+                </div>
+                <hr class="my-4">
+
+                <div class="row mt-3">
+                  <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
+                  <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong>
+                    Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                    make
+                    way for "new leadership" in the Democratic party.</p>
+                </div>
+                <hr class="my-4">
+
+                <div class="row mt-3">
+                  <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
+                  <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong>
+                    Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                    make
+                    way for "new leadership" in the Democratic party.</p>
+                </div>
+                <hr class="my-4">
+
+                <div class="row mt-3">
+                  <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
+                  <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong>
+                    Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                    make
+                    way for "new leadership" in the Democratic party.</p>
+                </div>
+                <hr class="my-4">
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container-fluid col-lg-3 col3">
+        <div class="opinion col-12">
+          <h4 class="featured"> OPINION</h4>
+          <div class="opinions">
+            <div class="opinion-info row">
+              <img src="images/opinion1.webp" class="col-lg-4" alt="opinions">
+              <p class="col-lg-8">
+                Hal Donahue
+                Is Scouting Worth Saving? Not Under the Boy Scouts of America
+                <span>BY HAL DONAHUE</span></p>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="opinion-info row">
+              <img src="images/opinion1.webp" class="col-lg-4" alt="opinions">
+              <p class="col-lg-8">
+                Hal Donahue
+                Is Scouting Worth Saving? Not Under the Boy Scouts of America
+                <span>BY HAL DONAHUE</span></p>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="opinion-info row">
+              <img src="images/opinion1.webp" class="col-lg-4" alt="opinions">
+              <p class="col-lg-8">
+                Hal Donahue
+                Is Scouting Worth Saving? Not Under the Boy Scouts of America
+                <span>BY HAL DONAHUE</span></p>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="opinion-info row">
+              <img src="images/opinion1.webp" class="col-lg-4" alt="opinions">
+              <p class="col-lg-8">
+                Hal Donahue
+                Is Scouting Worth Saving? Not Under the Boy Scouts of America
+                <span>BY HAL DONAHUE</span></p>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="opinion-info row">
+              <img src="images/opinion1.webp" class="col-lg-4" alt="opinions">
+              <p class="col-lg-8">
+                Hal Donahue
+                Is Scouting Worth Saving? Not Under the Boy Scouts of America<br />
+                <span>BY HAL DONAHUE</span></p>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="opinion-info row">
+              <img src="images/opinion1.webp" class="col-lg-4" alt="opinions">
+              <p class="col-lg-8">
+                Hal Donahue
+                Is Scouting Worth Saving? Not Under the Boy Scouts of America
+                <span>BY HAL DONAHUE</span></p>
+            </div>
+            <hr class="my-4">
+
+            <div class="opinion-info row">
+              <img src="images/opinion1.webp" class="col-lg-4" alt="opinions">
+              <p class="col-lg-8">
+                Hal Donahue
+                Is Scouting Worth Saving? Not Under the Boy Scouts of America
+                <span>BY HAL DONAHUE</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="debate col-12 mt-4">
+          <h4 class="featured"> THE DEBATE</h4>
+          <div class="versus">
+            <div class="debaters row">
+              <img src="images/annabella-sciorra.webp" class="col-lg-5 card-img-top " alt="debate">
+              <p class="col-lg-7">Say Bye to Media Coverage If Pelosi Succeeds in Censoring Our Video</p>
+            </div>
+
+            <div class="author row mt-5">
+              <p>BY BENNY JOHNSON <img src="images/opinion6.webp" alt="author"></p>
+            </div>
+
+            <h5>VS</h5>
+            <div class="debaters row mt-4">
+              <img src="images/annabella-sciorra.webp" class="col-lg-5 card-img-top " alt="debate">
+              <p class="col-lg-7">Say Bye to Media Coverage If Pelosi Succeeds in Censoring Our Video</p>
+            </div>
+
+            <div class="author row mt-5">
+              <p>BY BENNY JOHNSON <img src="images/opinion6.webp" alt="author"></p>
+            </div>
+
+          </div>
+
+          <div class="container-fluid latest mt-5">
+            <h4 class="featured">LATEST </h4>
+            <hr class="my-4">
+            <div class="more-news-info col-12">
+              <div class="row mt-3">
+                <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
+                <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
+              </div>
+              <hr class="my-4">
+
+
+              <div class="row mt-3">
+                <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
+                <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
+              </div>
+              <hr class="my-4">
+
+              <div class="row mt-3">
+                <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
+                <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
+              </div>
+              <hr class="my-4">
+
+              <div class="row mt-3">
+                <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
+                <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
+              </div>
+              <hr class="my-4">
+
+              <div class="row mt-3">
+                <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
+                <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
+              </div>
+              <hr class="my-4">
+
+              <div class="row mt-3">
+                <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
+                <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
+              </div>
+              <hr class="my-4">
+
+            </div>
+
+
+          </div>
+
+          <div class="signup">
+            <div>
+              <p><button class="bigN-btn btn-outline-light btn-lg">N</button> <strong>SIGN UP FOR OUR
+                  NEWSLETTER</strong></p>
+              <br />
+              <button class="signup-btn btn-outline-light btn-lg">SIGN UP ></button>
+              <br />
+              <p><b>Update your preferences>></b></p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="bigN-btn btn-outline-light btn-lg">N</button> <strong>IN THE MAGAZINE</strong>
+        </div>
+      </section>
+
+      <hr style="width: 70%; border-top: 1px solid grey;">
+
+
+
+      <section class="container-fluid middle">
+        <div class="row middle-container col-12">
+          <div class="cover col-lg-3">
+            <a href="#">
+              <img src="images/february-cover.webp" class="card-img-top" alt="cover">
+              FEBRUARY 28 ISSUE <br />
+              SEE ALL FEATURES >
+            </a>
+          </div>
+
+          <div class="articles col-lg-3">
+            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
+            <p><span><b>COVER</b></span> WORLD<br />
+              Growth Can Be Green. Here's How
+            </p>
+          </div>
+
+          <div class="articles col-lg-3">
+            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
+            <p><span><b>COVER</b></span> WORLD<br />
+              Growth Can Be Green. Here's How
+            </p>
+          </div>
+
+          <div class="articles col-lg-3">
+            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
+            <p><span><b>COVER</b></span> WORLD<br />
+              Growth Can Be Green. Here's How
+            </p>
+          </div>
+          <div class="articles col-lg-3">
+            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
+            <p><span><b>COVER</b></span> WORLD<br />
+              Growth Can Be Green. Here's How
+            </p>
+          </div>
+
+          <div class="articles col-lg-3">
+            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
+            <p><span><b>COVER</b></span> WORLD<br />
+              Growth Can Be Green. Here's How
+            </p>
+          </div>
+
+          <div class="articles col-lg-3">
+            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
+            <p><span><b>COVER</b></span> WORLD<br />
+              Growth Can Be Green. Here's How
+            </p>
+          </div>
+
+          <div class="articles col-lg-3">
+            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
+            <p><span><b>COVER</b></span> WORLD<br />
+              Growth Can Be Green. Here's How
+            </p>
+          </div>
+
+          <div class="articles col-lg-3">
+            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
+            <p><span><b>COVER</b></span> WORLD<br />
+              Growth Can Be Green. Here's How
+            </p>
+          </div>
+
+
+
+          <section class="editors-picks container-fluid mt-5">
+            <div class="editors">
+              <h3 class="display-4 text-center">EDITOR'S PICKS</h3>
+              <hr>
+              <div class="row">
+                <div class="articles col-lg-3 mb-3">
+                  <a href="#"> NEWS</a>
+                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+
+                  <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
+                  <p class="mt-3">
+                    "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+                    years
+                    ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+                  </p>
+                </div>
+
+                <div class="articles col-lg-3">
+                  <a href="#"> NEWS</a>
+                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+
+                  <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
+                  <p class="mt-3">
+                    "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+                    years
+                    ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+                  </p>
+                </div>
+
+                <div class="articles col-lg-3">
+                  <a href="#"> NEWS</a>
+                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+
+                  <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
+                  <p class="mt-3">
+                    "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+                    years
+                    ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+                  </p>
+                </div>
+
+                <div class="articles col-lg-3">
+                  <a href="#"> NEWS</a>
+                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+
+                  <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
+                  <p class="mt-3">
+                    "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+                    years
+                    ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+                  </p>
+                </div>
+
+                <div class="articles col-lg-3">
+                  <a href="#"> NEWS</a>
+                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+
+                  <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
+                  <p class="mt-3">
+                    "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+                    years
+                    ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+                  </p>
+                </div>
+
+                <div class="articles col-lg-3">
+                  <a href="#"> NEWS</a>
+                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+
+                  <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
+                  <p class="mt-3">
+                    "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+                    years
+                    ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+                  </p>
+                </div>
+
+                <div class="articles col-lg-3">
+                  <a href="#"> NEWS</a>
+                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+
+                  <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
+                  <p class="mt-3">
+                    "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+                    years
+                    ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+                  </p>
+                </div>
+
+                <div class="articles col-lg-3">
+                  <a href="#"> NEWS</a>
+                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+
+                  <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
+                  <p class="mt-3">
+                    "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+                    years
+                    ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <section class="container-fluid col-12 mb-5">
+            <div class="slideshow">
+              <div class="slide-title">
+                <h4 class="display-4 text-center"><button class="bigN-btn btn-outline-light btn-lg">N</button> FEATURED
+                  SLIDESHOWS</h4>
+              </div>
+              <hr>
+              <div class="slides row">
+                <div class="col-lg-4 mb-4">
+                  <img src="images/armadillo.webp" alt="arma">
+                  <a href="#">11</a>
+                  <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
+                </div>
+
+                <div class="col-lg-4">
+                  <img src="images/armadillo.webp" alt="arma">
+                  <a href="#">11</a>
+                  <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
+                </div>
+              
+
+                <div class="col-lg-4">
+                  <img src="images/armadillo.webp" alt="arma">
+                  <a href="#">11</a>
+                  <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
+                </div>
+              
+
+                <div class="col-lg-4">
+                  <img src="images/armadillo.webp" alt="arma">
+                  <a href="#">11</a>
+                  <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
+                </div>
+              
+
+                <div class="col-lg-4">
+                  <img src="images/armadillo.webp" alt="arma">
+                  <a href="#">11</a>
+                  <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
+                </div>
+              
+                <div class="col-lg-4">
+                  <img src="images/armadillo.webp" alt="arma">
+                  <a href="#">11</a>
+                  <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
+                </div>
+              
+              </div>
+            </div>
+          </section>
+
+          <hr>
+
+          <section class="extras container-fluid">
+            <div class="us row">
+              <div class="eat">
+<img src="images/bloomberg.webp" class="col-lg-4" alt="eat">
+<strong>#EatTheRich Trends After Mike Bloomberg Campaign Offices Vandalize</strong>
 </div>
- </div>
-
-  <a href="#" class="navbar-brand col-7 text-center"> <img src="images/svgexport-1.png" alt="logo"></a>
- <div class="col-3 subscribe">
-   <h4>SIGN IN</h4> <button class="btn btn-outline-light btn-lg">SUBSCRIBE ></button>
- </div>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-   <span class="navbar-toggler-icon"></span>
- </button>
-</div>
-
-<div class="collapse navbar-collapse col-12" id="navbarResponsive">
-  <ul class="navbar-nav ml-auto">
-    <li class="nav-item">
-      <a href="#" class="nav-link active">U.S</a>
-    </li>
-  
-    <li class="nav-item">
-      <a href="#" class="nav-link">World</a>
-    </li>
-  
-    <li class="nav-item">
-      <a href="#" class="nav-link">Business</a>
-    </li>
-  
-    <li class="nav-item">
-      <a href="#" class="nav-link">Tech & Science</a>
-    </li>
-  
-    <li class="nav-item">
-      <a href="#" class="nav-link">Culture</a>
-    </li>
-  
-    <li class="nav-item">
-      <a href="#" class="nav-link">Newsgeek</a>
-    </li>
-  
-    <li class="nav-item">
-      <a href="#" class="nav-link">Sports</a>
-    </li>
-  
-    <li class="nav-item">
-      <a href="#" class="nav-link">Health</a>
-    </li>
-  
-    <li class="nav-item">
-      <a href="#" class="nav-link">The Debate</a>
-    </li>
-  
-    <li class="nav-item">
-      <a href="#" class="nav-link">Vantage</a>
-    </li>
-  
-    <li class="nav-item">
-      <a href="#" class="nav-link">Weather</a>
-    </li>
-  
-    <li class="nav-item">
-      <a href="#" class="nav-link">
-        <form action="get">
-          <input type="text" placeholder="Search"> <i class="fas fa-search"></i>
-        </form>
-       </a>
-    </li>
-  </ul>
-  
-   </div>
-
-</nav>
+<div class="eat">
+  <img src="images/bloomberg.webp" class="col-lg-4" alt="eat">
+  <strong>#EatTheRich Trends After Mike Bloomberg Campaign Offices Vandalize</strong>
+  </div>
+            </div>
+          </section>
+      </section>
 
 
 
 
 
-
-
-
-
-
-
-
+    </section>
 
 
 
