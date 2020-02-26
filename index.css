@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -18,14 +18,7 @@
   font-size: 1rem;
 }
 
-.subscribe {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: row;
-  flex-flow: row nowrap;
-  margin-bottom: -36px;
-}
+
 
 .subscribe h4 {
   font-size: 1.2rem;
@@ -42,18 +35,10 @@
   font-weight: 800;
 }
 
-.sticky-top {
+/* .sticky-top {
   width: fit-content
-}
+} */
 
-.navlinks {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  flex-flow: row nowrap;
-  padding: 1rem;
-  margin: 0 auto;
-}
 
 .nav-item {
   border-right: 1px solid black;
@@ -82,27 +67,164 @@ input {
   position: relative;
   right: 122px;
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 600;
   color: grey;
 }
 
 .featured {
-  font-size: 1.2rem;
-  color: grey;
+  font-size: 1rem;
+  color: rgba(3, 3, 3, 0.4);
 }
 
+.magazine {
+  font-size: 1.3rem;
+}
+
+.issue {
+  position: absolute;
+  left: 15px;
+  top: 338px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.see {
+  position: absolute;
+  left: 15px;
+  top: 370px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.articles p{
+ line-height: 1.5;
+ font-size: 1.08rem;
+}
+
+.articles span {
+  background-color: red;
+}
+
+.articles p .inner-span {
+  font-size: 1rem;
+  color: red;
+}
+
+.editors h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.wrap2 {
+  font-size: 1rem;
+  font-weight: 700;
+  position: relative;
+  top: 185px;
+}
+
+.wrap-2 {
+  font-size: 1rem;
+  font-weight: 700;
+  position: absolute;
+  top: 153px;
+}
+
+.wrap3 {
+  font-size: 1rem;
+  font-weight: 700;
+  position: absolute;
+  top: 299px;
+}
+
+.wrap4 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  position: absolute;
+  top: 86px;
+}
+.wrap-1 {
+  font-size: 1rem;
+  font-weight: 700;
+  position: relative;
+  bottom: 28px;
+}
 .main {
   width: 100%;
 }
 
 .bigN-btn {
   background-color: red;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
 .signup-btn {
-  background-color: darkslategrey;
   font-weight: 700;
   font-size: 1rem;
+}
+
+.img-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.culture-travel h3 {
+  font-family: 'Lora' , serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.opinion-info p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.opinion-info p span {
+  font-size: 0.7rem;
+}
+.sub-signup h4{
+  color: red;
+}
+
+.bigN-para {
+  font-size: 1.1rem;
+}
+
+.news-block h2,
+.sub-class h2{
+  font-size: 1.2rem;
+  font-weight: 700;  
+}
+
+.news-block p,
+.sub-class p{
+  font-size: 1rem;  
+}
+
+
+.fa-facebook-square,
+.fa-twitter, 
+.fa-instagram, 
+.fa-tumblr,
+.fa-linkedin-in {
+  font-size: 2rem;
+  color: rgba(36, 34, 34, 0.644);
+  margin-top: -9%;
+}
+
+.country li:nth-child(1) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+  color: rgb(102, 102, 102);
+}
+
+.country li,
+.contact li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: rgb(102, 102, 102);
 }

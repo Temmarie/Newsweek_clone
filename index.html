@@ -17,8 +17,8 @@
 <body class="container-fluid">
   <main>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top container-fluid  d-flex flex-column flex-nowrap">
-
+    <nav class="navbar navbar-expand-lg navbar-light  container-fluid  d-flex flex-column flex-nowrap">
+      <!-- sticky-top -->
       <div class="container-fluid col-12 upper-nav">
         <div class="col-2 weather-date">
           <div class="weather">
@@ -30,8 +30,8 @@
         </div>
 
         <a href="#" class="navbar-brand col-7 text-center"> <img src="images/svgexport-1.png" alt="logo"></a>
-        <div class="col-3 subscribe">
-          <h4>SIGN IN</h4> <button class="btn btn-outline-light btn-lg">SUBSCRIBE ></button>
+        <div class="col-3 subscribe d-lg-flex flex-row flex-lg-nowrap mt-4 align-items-center">
+          <h4><strong>SIGN IN</strong></h4> <button class="btn btn-outline-light btn-lg ml-2">SUBSCRIBE ></button>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
           <span class="navbar-toggler-icon"></span>
@@ -39,8 +39,8 @@
       </div>
 
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <div class="container-fluid navlinks">
-          <ul class="navbar-nav ml-auto">
+        <div class="container-fluid navlinks d-flex flex-column  flex-lg-nowrap m-0 auto p-2 w-100">
+          <ul class="navbar-nav m-auto bg-light p-2 w-100 flex-nowrap">
             <li class="nav-item">
               <a href="#" class="nav-link active">U.S</a>
             </li>
@@ -98,15 +98,16 @@
 
     </nav>
 
-    <!-- Featured stories -->
-    <section class="row main">
+    <!-- main -->
+    <main class="row main col-12">
+      <!-- Featured stories -->
       <section class="container-fluid col-lg-3 col1">
         <div class="featured-stories">
           <h4 class="featured"> FEATURED STORIES</h4>
-          <a href="#" class="wrap">U.S.
-            <img src="images/coronavirus.webp" alt="coronavirus" class="card-img-top">
-          </a>
-          <h3 class="img-title">Coronavirus Update: Cases Outside China Spike 26 Percent in Single Day</h3>
+          <a href="#" class="bg-light text-danger p-2 wrap2">U.S.</a>
+          <img src="images/coronavirus.webp" alt="coronavirus" class="card-img-top">
+
+          <h3 class="img-title"><b>Coronavirus Update: Cases Outside China Spike 26 Percent in Single Day</b></h3>
           <p>On Monday, the European Commission announced 232 million euros would be mobilized to help fight the virus.
           </p>
           <hr class="my-4">
@@ -115,63 +116,89 @@
           <hr class="my-4">
         </div>
         <!-- culture -->
-        <div class="culture">
-          <a href="#" class="wrap">CULTURE
-            <img src="images/annabella-sciorra.webp" alt="coronavirus" class="card-img-top">
-          </a>
+        <div class="featured-stories">
+          <a href="#" class="bg-light text-danger p-2 wrap2">CULTURE</a>
+          <img src="images/annabella-sciorra.webp" alt="coronavirus" class="card-img-top">
+
           <h3 class="img-title">Annabella Sciorra Thanked by Celebrities After Harvey Weinstein Verdict</h3>
           <p>After providing testimony against the Hollywood movie producer, the name of actress Annabella Sciorra was
             trending on Twitter by users following the conviction of Harvey Weinstein.
           </p>
         </div>
         <!-- newsgeek -->
-        <div class="newsgeek mt-4">
-          <a href="#" class="wrap">NEWSGEEK
-            <img src="images/hiddenfig.webp" alt="coronavirus" class="card-img-top">
-          </a>
+        <div class="featured-stories mt-4">
+          <a href="#" class="bg-light text-danger p-2 wrap2">NEWSGEEK</a>
+          <img src="images/hiddenfig.webp" alt="coronavirus" class="card-img-top">
+
+          <h3 class="img-title">Five Facts About Late NASA 'Hidden Figures' Mathematician Katherine Johnson</h3>
+          <p> Here are five facts about the extraordinary NASA mathematician, Katherine Johnson, who died at the age of
+            101, whose trailblazing accomplishments were depicted in "Hidden Figures."
+          </p>
+        </div>
+        <!-- us -->
+        <div class="featured-stories mt-4">
+          <a href="#" class="bg-light text-danger p-2 wrap2">U.S</a>
+          <img src="images/armadillo.webp" alt="coronavirus" class="card-img-top">
+
+          <h3 class="img-title">Annabella Sciorra Thanked by Celebrities After Harvey Weinstein Verdict</h3>
+          <p>After providing testimony against the Hollywood movie producer, the name of actress Annabella Sciorra was
+            trending on Twitter by users following the conviction of Harvey Weinstein.
+          </p>
+        </div>
+
+        <!-- newsgeek -->
+        <div class="featured-stories mt-4">
+          <a href="#" class="bg-light text-danger p-2 wrap2">NEWSGEEK</a>
+          <img src="images/hiddenfig.webp" alt="coronavirus" class="card-img-top">
+
           <h3 class="img-title">Five Facts About Late NASA 'Hidden Figures' Mathematician Katherine Johnson</h3>
           <p> Here are five facts about the extraordinary NASA mathematician, Katherine Johnson, who died at the age of
             101, whose trailblazing accomplishments were depicted in "Hidden Figures."
           </p>
         </div>
 
-
       </section>
 
       <section class="container-fluid col-lg-5 col2">
         <div class="top-story">
           <h4 class="featured"> TOP STORIES</h4>
-          <a href="#" class="wrap">U.S.
-            <img src="images/harvey-weinstein.webp" alt="coronavirus" class="card-img-top">
-          </a>
+          <a href="#" class="bg-light text-danger p-2 wrap3">U.S.</a>
+          <img src="images/harvey-weinstein.webp" alt="coronavirus" class="card-img-top">
+
           <h3 class="img-title">Harvey Weinstein Convicted on Two Counts in Sexual Assault Case</h3>
           <p>The disgraced movie producer was found guilty of rape and a felony sex crime but was acquitted of other
             charges, including predatory sexual assault.
           </p>
         </div>
 
-        <div class="row culture-travel mt-4">
-          <h4 class="featured"> CULTURE & TRAVEL</h4>
+        <div class="row culture-travel mt-5">
+          <h4 class="featured mb-3"> CULTURE & TRAVEL</h4>
           <div class="row">
             <div class="col-lg-4">
-              <a href="#" class="wrap">News
-                <img src="images/coronaitaly.webp" alt="coronavirus" class="card-img-top">
-              </a>
+              <a href="#" class="bg-info text-dark p-1 wrap4">News</a>
+              <img src="images/coronaitaly.webp" alt="coronavirus" class="card-img-top">
+
               <h3 class="img-title">Coronavirus Italy Update: Europe's First Major Outbreak Sees Fourth Death</h3>
+              <p class="text-secondary">Newsweek's top fiction and nonfiction spring books to entertain and excite your imagination from the
+                blustery days of late winter until the sun shines in the spring.</p>
             </div>
 
             <div class="col-lg-4">
-              <a href="#" class="wrap">Books
-                <img src="images/cakebook.webp" alt="coronavirus" class="card-img-top">
-              </a>
+              <a href="#" class="bg-info text-dark p-1 wrap4">Books</a>
+              <img src="images/cakebook.webp" alt="coronavirus" class="card-img-top">
+
               <h3 class="img-title">40 Must-Read Fiction and Nonfiction Books to Savor This Spring</h3>
+              <p class="text-secondary">Newsweek's top fiction and nonfiction spring books to entertain and excite your imagination from the
+                blustery days of late winter until the sun shines in the spring.</p>
             </div>
 
             <div class="col-lg-4">
-              <a href="#" class="wrap">News
-                <img src="images/travel.webp" alt="coronavirus" class="card-img-top">
-              </a>
+              <a href="#" class="bg-info text-dark p-1 wrap4">Travel </a>
+              <img src="images/travel.webp" alt="coronavirus" class="card-img-top">
+
               <h3 class="img-title">Sacred Journeys Around the World</h3>
+              <p class="text-secondary">Newsweek's top fiction and nonfiction spring books to entertain and excite your imagination from the
+                blustery days of late winter until the sun shines in the spring.</p>
             </div>
 
             <div class="container-fluid more mt-5">
@@ -232,7 +259,19 @@
                 </div>
                 <hr class="my-4">
 
+              
+                <div class="row mt-3">
+                  <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
+                  <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong>
+                    Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                    make
+                    way for "new leadership" in the Democratic party.</p>
+                </div>
+               
+
+
               </div>
+
 
 
             </div>
@@ -248,135 +287,105 @@
           <h4 class="featured"> OPINION</h4>
           <div class="opinions">
             <div class="opinion-info row">
-              <img src="images/opinion1.webp" class="col-lg-4" alt="opinions">
+              <img src="images/opinion6.webp" class="col-lg-4" alt="opinions">
               <p class="col-lg-8">
                 Hal Donahue
                 Is Scouting Worth Saving? Not Under the Boy Scouts of America
-                <span>BY HAL DONAHUE</span></p>
+                <br /><span class="text-secondary">BY HAL DONAHUE</span></p>
             </div>
 
             <hr class="my-4">
 
             <div class="opinion-info row">
-              <img src="images/opinion1.webp" class="col-lg-4" alt="opinions">
-              <p class="col-lg-8">
-                Hal Donahue
-                Is Scouting Worth Saving? Not Under the Boy Scouts of America
-                <span>BY HAL DONAHUE</span></p>
-            </div>
-
-            <hr class="my-4">
-
-            <div class="opinion-info row">
-              <img src="images/opinion1.webp" class="col-lg-4" alt="opinions">
-              <p class="col-lg-8">
-                Hal Donahue
-                Is Scouting Worth Saving? Not Under the Boy Scouts of America
-                <span>BY HAL DONAHUE</span></p>
-            </div>
-
-            <hr class="my-4">
-
-            <div class="opinion-info row">
-              <img src="images/opinion1.webp" class="col-lg-4" alt="opinions">
-              <p class="col-lg-8">
-                Hal Donahue
-                Is Scouting Worth Saving? Not Under the Boy Scouts of America
-                <span>BY HAL DONAHUE</span></p>
-            </div>
-
-            <hr class="my-4">
-
-            <div class="opinion-info row">
-              <img src="images/opinion1.webp" class="col-lg-4" alt="opinions">
+              <img src="images/opinion4.webp" class="col-lg-4" alt="opinions">
               <p class="col-lg-8">
                 Hal Donahue
                 Is Scouting Worth Saving? Not Under the Boy Scouts of America<br />
-                <span>BY HAL DONAHUE</span></p>
+                <span class="text-secondary">BY HAL DONAHUE</span></p>
             </div>
 
             <hr class="my-4">
 
             <div class="opinion-info row">
-              <img src="images/opinion1.webp" class="col-lg-4" alt="opinions">
+              <img src="images/opinion2.webp" class="col-lg-4" alt="opinions">
               <p class="col-lg-8">
                 Hal Donahue
                 Is Scouting Worth Saving? Not Under the Boy Scouts of America
-                <span>BY HAL DONAHUE</span></p>
+                <br /><span class="text-secondary">BY HAL DONAHUE</span></p>
             </div>
             <hr class="my-4">
 
             <div class="opinion-info row">
-              <img src="images/opinion1.webp" class="col-lg-4" alt="opinions">
+              <img src="images/opinion3.webp" class="col-lg-4" alt="opinions">
               <p class="col-lg-8">
                 Hal Donahue
                 Is Scouting Worth Saving? Not Under the Boy Scouts of America
-                <span>BY HAL DONAHUE</span></p>
+                <br /><span class="text-secondary">BY HAL DONAHUE</span></p>
             </div>
           </div>
         </div>
+        <!-- debate -->
         <div class="debate col-12 mt-4">
           <h4 class="featured"> THE DEBATE</h4>
+
           <div class="versus">
-            <div class="debaters row">
+            <div class="debaters row ">
               <img src="images/annabella-sciorra.webp" class="col-lg-5 card-img-top " alt="debate">
               <p class="col-lg-7">Say Bye to Media Coverage If Pelosi Succeeds in Censoring Our Video</p>
             </div>
 
-            <div class="author row mt-5">
-              <p>BY BENNY JOHNSON <img src="images/opinion6.webp" alt="author"></p>
+
+            <hr class="my-4 border-bottom p-1 z-index-999">
+            <div class="author row mt-0 mb-2">
+
+              <p class="mt-0">BY BENNY JOHNSON </p>
+              <img src="images/opinion6.webp" class="mb-1" alt="author">
             </div>
 
-            <h5>VS</h5>
-            <div class="debaters row mt-4">
+            <h5 class="text-center text-dark">VS</h5>
+
+            <div class="debaters row mt-2">
               <img src="images/annabella-sciorra.webp" class="col-lg-5 card-img-top " alt="debate">
               <p class="col-lg-7">Say Bye to Media Coverage If Pelosi Succeeds in Censoring Our Video</p>
             </div>
-
-            <div class="author row mt-5">
-              <p>BY BENNY JOHNSON <img src="images/opinion6.webp" alt="author"></p>
+            <hr class="my-4 border-bottom p-1 z-index-999">
+            <div class="author row mt-0">
+              <p class="mt-1">BY BENNY JOHNSON </p><img src="images/opinion6.webp" class="" alt="author">
             </div>
 
           </div>
 
           <div class="container-fluid latest mt-5">
-            <h4 class="featured">LATEST </h4>
-            <hr class="my-4">
+            <h4 class="featured">LATEST NEWS</h4>
             <div class="more-news-info col-12">
               <div class="row mt-3">
-                <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
-                <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
+                <img src="images/black.webp" class="" alt="corona">
+                <p class=""><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
               </div>
               <hr class="my-4">
 
 
               <div class="row mt-3">
-                <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
-                <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
+                <img src="images/black.webp" class="" alt="corona">
+                <p class=""><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
               </div>
               <hr class="my-4">
 
               <div class="row mt-3">
-                <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
-                <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
+                <img src="images/black.webp" class="" alt="corona">
+                <p class=""><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
               </div>
               <hr class="my-4">
 
               <div class="row mt-3">
-                <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
-                <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
+                <img src="images/black.webp" class="" alt="corona">
+                <p class=""><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
               </div>
               <hr class="my-4">
 
               <div class="row mt-3">
-                <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
-                <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
-              </div>
-              <hr class="my-4">
-
-              <div class="row mt-3">
-                <img src="images/black.webp" class="col-lg-4 card-img-top" alt="corona">
-                <p class="col-lg-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
+                <img src="images/black.webp" class="" alt="corona">
+                <p class=""><strong>Black Lives Matter Co-Founder Endorses Sanders and Warren</strong></p>
               </div>
               <hr class="my-4">
 
@@ -385,100 +394,99 @@
 
           </div>
 
-          <div class="signup">
+          <div class="signup bg-light border p-4 mt-5">
             <div>
-              <p><button class="bigN-btn btn-outline-light btn-lg">N</button> <strong>SIGN UP FOR OUR
-                  NEWSLETTER</strong></p>
+              <div class="d-flex bigN-para">
+                <span class="bigN-btn text-light btn-lg rounded-0">N</span>
+                <p class="pl-2"><strong>SIGN UP FOR OUR
+                    NEWSLETTER</strong></p>
+              </div>
               <br />
-              <button class="signup-btn btn-outline-light btn-lg">SIGN UP ></button>
+              <button class="signup-btn btn-outline-light bg-secondary btn-lg">SIGN UP ></button>
               <br />
-              <p><b>Update your preferences>></b></p>
+              <small><b>Update your preferences>></b></small>
             </div>
           </div>
-        </div>
-        <div class="text-center">
-          <button class="bigN-btn btn-outline-light btn-lg">N</button> <strong>IN THE MAGAZINE</strong>
         </div>
       </section>
 
-      <hr style="width: 70%; border-top: 1px solid grey;">
+      <div class="text-center col-12 magazine">
+        <span class="bigN-btn text-light btn-lg rounded-0">N</span> <strong>IN THE MAGAZINE</strong>
+      </div>
+
+
 
 
 
       <section class="container-fluid middle">
+        <hr>
         <div class="row middle-container col-12">
-          <div class="cover col-lg-3">
-            <a href="#">
-              <img src="images/february-cover.webp" class="card-img-top" alt="cover">
-              FEBRUARY 28 ISSUE <br />
-              SEE ALL FEATURES >
-            </a>
+          <div class="cover col-lg-3 ">
+
+            <img src="images/february-cover.webp" class="card-img-top" alt="cover">
+            <a href="#" class="issue p-2 text-danger bg-light"> FEBRUARY 28 ISSUE</a> <br />
+              <div class="see text-dark bg-light p-2 pl-5 pr-5">SEE ALL FEATURES >
+              </div>
           </div>
 
           <div class="articles col-lg-3">
-            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
-            <p><span><b>COVER</b></span> WORLD<br />
-              Growth Can Be Green. Here's How
-            </p>
-          </div>
-
-          <div class="articles col-lg-3">
-            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
-            <p><span><b>COVER</b></span> WORLD<br />
-              Growth Can Be Green. Here's How
+            <img src="images/newyork.webp" class=" card-img-top" alt="newyork">
+            <p class="mt-3"><span class="p-1 text-light"><b>COVER</b></span> <span class="inner-span bg-white"><b>WORLD</b></span><br />
+              <b>Growth Can Be Green. Here's How</b>
             </p>
           </div>
 
           <div class="articles col-lg-3">
-            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
-            <p><span><b>COVER</b></span> WORLD<br />
-              Growth Can Be Green. Here's How
-            </p>
-          </div>
-          <div class="articles col-lg-3">
-            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
-            <p><span><b>COVER</b></span> WORLD<br />
-              Growth Can Be Green. Here's How
+            <img src="images/world.webp" class="card-img-top" alt="newyork">
+            <p class="mt-3"><span class="p-1 text-light"><b>COVER</b></span><span class="inner-span bg-white"><b> POLITICS</b></span><br />
+              <b>Growth Can Be Green. Here's How</b>
             </p>
           </div>
 
           <div class="articles col-lg-3">
-            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
-            <p><span><b>COVER</b></span> WORLD<br />
-              Growth Can Be Green. Here's How
+            <img src="images/obama.webp" class="card-img-top" alt="newyork">
+            <p class="mt-3"><span class="p-1 text-light"><b>COVER</b></span><span class="inner-span bg-white"><b> TECH</b></span><br />
+              <b>Growth Can Be Green. Here's How</b>
+            </p>
+          </div>
+          <div class="articles col-lg-3 mt-5">
+            <img src="images/starwars.webp" class="card-img-top" alt="newyork">
+            <p class="mt-3"><span class="p-1 text-light"><b>COVER</b></span> <span class="inner-span bg-white"><b>WORLD</b></span><br />
+              <b>Growth Can Be Green. Here's How</b>
             </p>
           </div>
 
-          <div class="articles col-lg-3">
-            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
-            <p><span><b>COVER</b></span> WORLD<br />
-              Growth Can Be Green. Here's How
+          <div class="articles col-lg-3 mt-5">
+            <img src="images/periscope.webp" class="card-img-top" alt="newyork">
+            <p class="mt-3"><span class="p-1 text-light"><b>COVER</b></span> <span class="inner-span bg-white"><b>WORLD</b></span><br />
+              <b>Growth Can Be Green. Here's How</b>
             </p>
           </div>
 
-          <div class="articles col-lg-3">
-            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
-            <p><span><b>COVER</b></span> WORLD<br />
-              Growth Can Be Green. Here's How
+          <div class="articles col-lg-3 mt-5">
+            <img src="images/latestimg.webp" class="card-img-top" alt="newyork">
+            <p class="mt-3"><span class="p-1 text-light"><b>COVER</b></span> <span class="inner-span bg-white"><b>WORLD</b></span><br />
+              <b>Growth Can Be Green. Here's How</b>
             </p>
           </div>
 
-          <div class="articles col-lg-3">
-            <img src="images/newyork.webp" class="card-img-top" alt="newyork">
-            <p><span><b>COVER</b></span> WORLD<br />
-              Growth Can Be Green. Here's How
+          <div class="articles col-lg-3 mt-5">
+            <img src="images/download.webp" class="card-img-top" alt="newyork">
+            <p class="mt-3"><span class="p-1 text-light"><b>COVER</b></span> <span class="inner-span bg-white"><b>WORLD</b></span><br />
+              <b>Growth Can Be Green. Here's How</b>
             </p>
           </div>
+
 
 
 
           <section class="editors-picks container-fluid mt-5">
             <div class="editors">
-              <h3 class="display-4 text-center">EDITOR'S PICKS</h3>
+              <h3 class="display-4 text-center"><span class="mr-3 bigN-btn text-light btn-lg rounded-0">N</span>EDITOR'S PICKS</h3>
               <hr>
               <div class="row">
                 <div class="articles col-lg-3 mb-3">
-                  <a href="#"> NEWS</a>
+                  <a href="#" class="bg-light text-danger p-2 wrap-2"> NEWS</a>
                   <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
 
                   <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
@@ -490,8 +498,8 @@
                 </div>
 
                 <div class="articles col-lg-3">
-                  <a href="#"> NEWS</a>
-                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+                  <a href="#" class="bg-light text-danger p-2 wrap-2"> NEWS</a>
+                  <img src="images/impeach.webp" class=" mb-2 card-img-top" alt="newyork">
 
                   <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
                   <p class="mt-3">
@@ -502,8 +510,8 @@
                 </div>
 
                 <div class="articles col-lg-3">
-                  <a href="#"> NEWS</a>
-                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+                  <a href="#" class="bg-light text-danger p-2 wrap-2"> NEWS</a>
+                  <img src="images/obama.webp" class=" mb-2 card-img-top" alt="newyork">
 
                   <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
                   <p class="mt-3">
@@ -514,8 +522,8 @@
                 </div>
 
                 <div class="articles col-lg-3">
-                  <a href="#"> NEWS</a>
-                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+                  <a href="#" class="bg-light text-danger p-2 wrap-2"> NEWS</a>
+                  <img src="images/trump.webp" class=" mb-2 card-img-top" alt="newyork">
 
                   <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
                   <p class="mt-3">
@@ -526,8 +534,8 @@
                 </div>
 
                 <div class="articles col-lg-3">
-                  <a href="#"> NEWS</a>
-                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+                  <a href="#" class="bg-light text-danger p-2 wrap-2"> NEWS</a>
+                  <img src="images/hunter.webp" class=" mb-2 card-img-top" alt="newyork">
 
                   <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
                   <p class="mt-3">
@@ -538,8 +546,8 @@
                 </div>
 
                 <div class="articles col-lg-3">
-                  <a href="#"> NEWS</a>
-                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+                  <a href="#" class="bg-light text-danger p-2 wrap-2"> NEWS</a>
+                  <img src="images/wikileak.webp" class=" mb-2 card-img-top" alt="newyork">
 
                   <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
                   <p class="mt-3">
@@ -550,8 +558,8 @@
                 </div>
 
                 <div class="articles col-lg-3">
-                  <a href="#"> NEWS</a>
-                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+                  <a href="#" class="bg-light text-danger p-2 wrap-2"> NEWS</a>
+                  <img src="images/alaskan.webp" class=" mb-2 card-img-top" alt="newyork">
 
                   <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
                   <p class="mt-3">
@@ -562,8 +570,8 @@
                 </div>
 
                 <div class="articles col-lg-3">
-                  <a href="#"> NEWS</a>
-                  <img src="images/nasa.webp" class=" mb-2 card-img-top" alt="newyork">
+                  <a href="#" class="bg-light text-danger p-2 wrap-2"> NEWS</a>
+                  <img src="images/download.webp" class=" mb-2 card-img-top" alt="newyork">
 
                   <strong>WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow Words'</strong>
                   <p class="mt-3">
@@ -587,40 +595,40 @@
               <div class="slides row">
                 <div class="col-lg-4 mb-4">
                   <img src="images/armadillo.webp" alt="arma">
-                  <a href="#">11</a>
+                  <a href="#" class="bg-light text-danger p-2 wrap-1">11</a>
                   <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
                 </div>
 
                 <div class="col-lg-4">
                   <img src="images/armadillo.webp" alt="arma">
-                  <a href="#">11</a>
-                  <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
-                </div>
-
-
-                <div class="col-lg-4">
-                  <img src="images/armadillo.webp" alt="arma">
-                  <a href="#">11</a>
+                  <a href="#" class="bg-light text-danger p-2 wrap-1">11</a>
                   <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
                 </div>
 
 
                 <div class="col-lg-4">
                   <img src="images/armadillo.webp" alt="arma">
-                  <a href="#">11</a>
+                  <a href="#" class="bg-light text-danger p-2 wrap-1">11</a>
                   <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
                 </div>
 
 
                 <div class="col-lg-4">
                   <img src="images/armadillo.webp" alt="arma">
-                  <a href="#">11</a>
+                  <a href="#" class="bg-light text-danger p-2 wrap-1">11</a>
+                  <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
+                </div>
+
+
+                <div class="col-lg-4">
+                  <img src="images/armadillo.webp" alt="arma">
+                  <a href="#" class="bg-light text-danger p-2 wrap-1">11</a>
                   <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
                 </div>
 
                 <div class="col-lg-4">
                   <img src="images/armadillo.webp" alt="arma">
-                  <a href="#">11</a>
+                  <a href="#" class="bg-light text-danger p-2 wrap-1">11</a>
                   <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
                 </div>
 
@@ -650,7 +658,7 @@
                   </div>
 
                   <div class="sidebar col-lg-4">
-                    <div class="sides col-12 col">
+                    <div class="sides ">
                       <div>
                         <img src="images/border-patrol.webp" class="card-img-top col-lg-4" alt="side">
                         <strong class="col-lg-7">FBI Probes Border Patrol Union After $500,000 Goes Missing:
@@ -846,34 +854,38 @@
       </section>
 
 
-      <section class="container-fluid sub-signup">
-        <div class="sub-signup">
-          <h4>SUBSCRIBE</h4>
-        </div>
+      <section class="container-fluid sub-signup col-12">
+        <div class="sub-class col-lg-7 ">
+          <div class="sub-signup">
+            <h4><strong>SUBSCRIBE</strong></h4>
+          </div>
+          <div class="container-fluid row">
+            <div class="row bg-light">
+              <div class="img-wrap col-lg-4">
+                <img src="images/cover2.jpg" class="row" alt="cover">
+                <img src="images/cover1.jpg" class="row" alt="cover">
+              </div>
+              <div class="col-lg-8">
+                <h2>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h2>
+                <p> All Access + Weekly Delivery.
+                  Choose A Membership That's Perfect for You!</p>
+                <button class="bigN-btn btn-outline-light btn-lg">SUBSCRIBE ></button>
 
-        <div class="container-fluid row">
-          <div class="col-lg-8 row">
-            <div class="img-wrap col-lg-4">
-              <img src="images/cover2.jpg" class="row" alt="cover">
-              <img src="images/cover2.jpg" class="row" alt="cover">
-            </div>
-            <div class="col-lg-8">
-              <h2>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h2>
-              <p> All Access + Weekly Delivery.
-                Choose A Membership That's Perfect for You!</p>
-              <button class="bigN-btn btn-outline-light btn-lg">SUBSCRIBE ></button>
-
+              </div>
             </div>
           </div>
-          <div class="col-lg-3 row">
-            <div class="sub-signup">
-              <h4>NEWSLETTER</h4>
-            </div>
+        </div>
 
-            <div class="container-fluid row col-12 ">
-              <img src="images/starwars.webp" alt="newsletter" class="card-img-top">
-              <div class="news-letter col-lg-6">
-                <strong>The Starting 5</strong>
+        <div class="letter-class container-fluid col-lg-5 float-right">
+          <div class="sub-signup">
+            <h4>NEWSLETTER</h4>
+          </div>
+
+          <div class="col-12 border p-5 mt-0">
+            <div class="news-block row">
+              <img src="images/starwars.webp" alt="newsletter" class="col-lg-4 w-100">
+              <div class="letter col-lg-8">
+                <h2>The Starting 5</h2>
                 <p>Take back your inbox. Sign up for our newsletter and start making sense of the
                   world around you.
                 </p>
@@ -882,9 +894,10 @@
             </div>
           </div>
         </div>
+
       </section>
 
-    </section>
+    </main>
 
     <hr>
 
@@ -894,40 +907,43 @@
           <p> <img src="images/svgexport-2.png" alt="logo"> &copy; 2020 NEWSWEEK</p>
         </div>
 
-        <div class="right">
-          <i class="fab fa-facebook-square"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-tumblr"></i>
-          <i class="fab fa-linkedin-in"></i>
+        <div class="right float-right d-inlineflex justify-content-between flex-row flex-nowrap m-0 p-0">
+          <i class="fab fa-facebook-square ml-2"></i>
+          <i class="fab fa-twitter ml-2"></i>
+          <i class="fab fa-instagram ml-2"></i>
+          <i class="fab fa-tumblr ml-2"></i>
+          <i class="fab fa-linkedin-in ml-2"></i>
         </div>
       </div>
       <hr>
 
       <div class="bottom-footer">
-      
-        <ul class="country">
-          <li>  Editions:</li>
-          <li>U.S. Edition</li>
-          <li> 日本</li>
-          <li>Pakistan</li>
-          <li>Polska</li>
+
+        <ul class="country col-lg-4 d-flex justify-content-between mb-3">
+          <li> Editions:</li>
+          <li class="border-right pr-2">U.S. Edition</li>
+          <li class="border-right pr-2"> 日本</li>
+          <li class="border-right pr-2">Pakistan</li>
+          <li class="border-right pr-2">Polska</li>
           <li> România</li>
         </ul>
-        <ul class="contact">
-          <li> About Us</li>
-          <li>Corrections</li>
-          <li>Contact Us</li>
-          <li>Editorial Guidelines</li>
-          <li>Advertise</li>
-          <li>Copyright</li>
-          <li>Terms & Conditions</li>
-          <li>Privacy Policy</li>
-          <li>Cookie Policy</li>
-          <li>Terms of Sale</li>
-          <li>Archive</li>
-          <li>Announcements</li>
-          <li>Consent preferences</li>
+
+        <ul class="contact col-lg-11 d-flex justify-content-between">
+          <li class="border-right pr-1"> About Us</li>
+          <li class="border-right pr-1">Corrections</li>
+          <li class="border-right pr-1">Contact Us</li>
+          <li class="border-right pr-1">Editorial Guidelines</li>
+          <li class="border-right pr-1">Advertise</li>
+          <li class="border-right pr-1">Copyright</li>
+          <li class="border-right pr-1">Terms & Conditions</li>
+          <li class="border-right pr-1">Privacy Policy</li>
+          <li class="border-right pr-1">Cookie Policy</li>
+          <li class="border-right pr-1">Terms of Sale</li>
+          <li class="border-right pr-1">Archive</li>
+          <li class="border-right pr-1">Announcements</li>
+        </ul>
+        <ul class="pl-3 contact"><br />
+          <li class="">Consent preferences</li>
         </ul>
       </div>
     </footer>
@@ -938,10 +954,6 @@
 
 
 
-
-
-
-  </main>
 
 
 
