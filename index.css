@@ -29,7 +29,6 @@
   font-size: 1rem;
   line-height: 1.5;
   background: white;
-  padding: 0.1rem 0.8rem;
   border-radius: 0.3rem;
   color: red;
   font-weight: 800;
@@ -38,7 +37,6 @@
 /* .sticky-top {
   width: fit-content
 } */
-
 
 .nav-item {
   border-right: 1px solid black;
@@ -55,14 +53,15 @@
 
 .navbar-light .navbar-nav .nav-link {
   font-size: 1rem;
-    font-weight: 900;
-    font-family: 'Roboto', sans-serif;
-    color: black;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  color: black;
 }
 
 input {
   border: 0;
 }
+
 .fa-search {
   position: relative;
   right: 122px;
@@ -96,9 +95,9 @@ input {
   font-weight: 700;
 }
 
-.articles p{
- line-height: 1.5;
- font-size: 1.08rem;
+.articles p {
+  line-height: 1.5;
+  font-size: 1.08rem;
 }
 
 .articles span {
@@ -113,6 +112,33 @@ input {
 .editors h3 {
   font-size: 1.2rem;
   font-weight: 700;
+}
+
+.slideshow h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.slideshow p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.US h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: red;
+}
+
+.US p {
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.US p:hover {
+  text-decoration: red underline;
+
 }
 
 .wrap2 {
@@ -142,11 +168,12 @@ input {
   position: absolute;
   top: 86px;
 }
+
 .wrap-1 {
   font-size: 1rem;
   font-weight: 700;
   position: relative;
-  bottom: 28px;
+  bottom: 54px;
 }
 .main {
   width: 100%;
