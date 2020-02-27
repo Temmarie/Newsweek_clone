@@ -138,7 +138,6 @@ input {
 
 .US p:hover {
   text-decoration: red underline;
-
 }
 
 .wrap2 {
@@ -175,6 +174,7 @@ input {
   position: relative;
   bottom: 54px;
 }
+
 .main {
   width: 100%;
 }
@@ -196,7 +196,7 @@ input {
 }
 
 .culture-travel h3 {
-  font-family: 'Lora' , serif;
+  font-family: 'Lora', serif;
   font-size: 1.2rem;
   font-weight: 100;
 }
@@ -209,7 +209,8 @@ input {
 .opinion-info p span {
   font-size: 0.7rem;
 }
-.sub-signup h4{
+
+.sub-signup h4 {
   color: red;
 }
 
@@ -218,20 +219,19 @@ input {
 }
 
 .news-block h2,
-.sub-class h2{
+.sub-class h2 {
   font-size: 1.2rem;
   font-weight: 700;  
 }
 
 .news-block p,
-.sub-class p{
-  font-size: 1rem;  
+.sub-class p {
+  font-size: 1rem;
 }
 
-
 .fa-facebook-square,
-.fa-twitter, 
-.fa-instagram, 
+.fa-twitter,
+.fa-instagram,
 .fa-tumblr,
 .fa-linkedin-in {
   font-size: 2rem;
@@ -255,3 +255,68 @@ input {
   line-height: 14px;
   color: rgb(102, 102, 102);
 }
+
+@media screen and (min-width: 992px) {
+ 
+  
+}
+
+@media screen and (max-width: 768px) {
+  .extras {
+    display: none;
+  }
+
+  .issue {
+    position: absolute;
+    left: 15px;
+    top: 127px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  /* .see {
+    position: absolute;
+    left: 15px;
+    top: auto;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 auto;
+  } */
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
