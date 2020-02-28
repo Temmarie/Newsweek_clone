@@ -4,6 +4,80 @@
   padding: 0;
 }
 
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+
+}
+html,
+body{
+  width: 100%;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article>*+* {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  font-family: "Roboto Condensed", sans-serif;
+  
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
@@ -176,3 +250,150 @@ nav .upper-nav {
 .news-wrap p {
   font-size: 1rem;
 }
+
+.US h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: red;
+}
+
+.US p {
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.US p:hover {
+  text-decoration: red underline;
+}
+
+.cover2 {
+  top: 19px;
+  left: 65px;
+}
+
+.sub-signup h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.sub-signup h4 {
+  color: red;
+}
+
+.sub-signup p {
+  font-size: 1rem;
+}
+
+.letter {
+  top: 10px;
+  left: 20px;
+}
+
+.newsweek {
+  top: 1px;
+}
+
+.sides .float-right {
+  top: -65px;
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
+.fa-facebook-square,
+.fa-twitter,
+.fa-instagram,
+.fa-tumblr,
+.fa-linkedin-in {
+  font-size: 1.5rem;
+  color: rgba(36, 34, 34, 0.644);
+  margin-top: -9%;
+}
+
+.country li:nth-child(1) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+  color: rgb(102, 102, 102);
+}
+
+.country li,
+.contact li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: rgb(102, 102, 102);
+}
+
+
+@media screen and (min-width: 992px) {
+ 
+  
+}
+
+@media screen and (max-width: 768px) {
+  .extras {
+    display: none;
+  }
+
+  .issue {
+    position: absolute;
+    left: 15px;
+    top: 127px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  /* .see {
+    position: absolute;
+    left: 15px;
+    top: auto;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 auto;
+  } */
+}
+
+@media screen and (max-width: 576px) {
+  .extras {
+    display: none;
+  }
+
+  .left {
+
+  }
+
+  .right {
+    
+  }
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
+
