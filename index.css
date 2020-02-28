@@ -113,9 +113,8 @@ nav .upper-nav {
   font-weight: 700;
 }
 
-
-.nav-item a:hover {
-  text-decoration:red underline;
+.nav-link:hover {
+  color: red;
 }
 
 .nav-item .search:hover {
@@ -368,7 +367,7 @@ nav .upper-nav {
   }
 
   .right {
-    
+
   }
 }
 
