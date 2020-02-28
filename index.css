@@ -1,73 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+
+nav .upper-nav {
+  background-color:#F72210;
 }
 
-.navbar {
-  font-family: 'Roboto', sans-serif;
-}
-
-.upper-nav {
-  background-color: red;
-  padding: 0.5rem;
-  font-family: 'Roboto', sans-serif;
-  color: white;
+.weather-date {
+  font-family: 'Roboto' ,sans-serif;
+  line-height: 2;
   font-size: 1rem;
 }
 
+.weather {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
 
+.subscribe-btn {
+  color: red;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Roboto Condensed' ,sans-serif;
+}
 
 .subscribe h4 {
+  font-size: 1rem;
+}
+
+.navlinks {
+  font-family: 'Roboto Condensed' ,sans-serif;
   font-size: 1.2rem;
+  font-weight: 700;
 }
 
-.subscribe .btn-lg {
-  padding: -2.5rem 1rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  background: white;
-  border-radius: 0.3rem;
-  color: red;
-  font-weight: 800;
+
+.nav-item a:hover {
+  text-decoration:red underline;
 }
 
-/* .sticky-top {
-  width: fit-content
-} */
-
-.nav-item {
-  border-right: 1px solid black;
-  height: 35px;
+.nav-item .search:hover {
+  text-decoration: none;
 }
 
-.nav-item:nth-child(11) {
-  border-right: none;
-}
-
-.nav-item:nth-child(12) {
-  border-right: none;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  font-size: 1rem;
-  font-weight: 900;
-  font-family: 'Roboto', sans-serif;
-  color: black;
-}
-
-input {
-  border: 0;
-}
-
-.fa-search {
+.wrap2 {
+  top: 255px;
+  z-index: 99;
   position: relative;
-  right: 122px;
+}
+
+.img-title {
   font-size: 1.2rem;
-  font-weight: 600;
-  color: grey;
+  font-weight: 700;
+}
+
+.top-story-image {
+  position: relative;
+}
+
+
+.wrap3 {
+  top: 284px;
+  z-index: 99;
+  position: relative;
+}
+
+
+.wrap4 {
+  top: 69px;
+  z-index: 99;
+  position: absolute;
+}
+
+.opinion-info {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.debate-bar {
+  background-color: red;
+  padding: 1px;
+}
+
+.debaters p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.author p {
+  font-size: 0.8rem;
 }
 
 .featured {
@@ -75,24 +101,36 @@ input {
   color: rgba(3, 3, 3, 0.4);
 }
 
-.magazine {
-  font-size: 1.3rem;
+.news p strong {
+  font-size: 1rem;
 }
 
-.issue {
-  position: absolute;
-  left: 15px;
-  top: 338px;
-  font-size: 1rem;
+.bigN-btn {
+  background-color: red;
+  font-size: 1.2rem;
   font-weight: 700;
+}
+
+.signup-btn {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.signup small {
+  font-size: 0.8rem;
+}
+
+.february {
+  top: 371px;
+  z-index: 99;
+  position: absolute;
+  font-weight: 600;
 }
 
 .see {
-  position: absolute;
-  left: 15px;
-  top: 370px;
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #F72210;
 }
 
 .articles p {
@@ -124,199 +162,17 @@ input {
   font-weight: 700;
 }
 
-.US h4 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: red;
-}
-
-.US p {
-  font-size: 1.1rem;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.US p:hover {
-  text-decoration: red underline;
-}
-
-.wrap2 {
-  font-size: 1rem;
-  font-weight: 700;
-  position: relative;
-  top: 185px;
-}
-
-.wrap-2 {
-  font-size: 1rem;
-  font-weight: 700;
+.news-wrap {
+  top: 163px;
+  z-index: 99;
   position: absolute;
-  top: 153px;
 }
 
-.wrap3 {
-  font-size: 1rem;
-  font-weight: 700;
-  position: absolute;
-  top: 299px;
-}
-
-.wrap4 {
-  font-size: 0.8rem;
-  font-weight: 500;
-  position: absolute;
-  top: 86px;
-}
-
-.wrap-1 {
-  font-size: 1rem;
-  font-weight: 700;
-  position: relative;
-  bottom: 54px;
-}
-
-.main {
-  width: 100%;
-}
-
-.bigN-btn {
-  background-color: red;
+.news-wrap strong {
   font-size: 1.2rem;
   font-weight: 700;
 }
 
-.signup-btn {
-  font-weight: 700;
+.news-wrap p {
   font-size: 1rem;
 }
-
-.img-title {
-  font-size: 1.3rem;
-  font-weight: 700;
-}
-
-.culture-travel h3 {
-  font-family: 'Lora', serif;
-  font-size: 1.2rem;
-  font-weight: 100;
-}
-
-.opinion-info p {
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-.opinion-info p span {
-  font-size: 0.7rem;
-}
-
-.sub-signup h4 {
-  color: red;
-}
-
-.bigN-para {
-  font-size: 1.1rem;
-}
-
-.news-block h2,
-.sub-class h2 {
-  font-size: 1.2rem;
-  font-weight: 700;  
-}
-
-.news-block p,
-.sub-class p {
-  font-size: 1rem;
-}
-
-.fa-facebook-square,
-.fa-twitter,
-.fa-instagram,
-.fa-tumblr,
-.fa-linkedin-in {
-  font-size: 2rem;
-  color: rgba(36, 34, 34, 0.644);
-  margin-top: -9%;
-}
-
-.country li:nth-child(1) {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 15px;
-  color: rgb(102, 102, 102);
-}
-
-.country li,
-.contact li {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 14px;
-  color: rgb(102, 102, 102);
-}
-
-@media screen and (min-width: 992px) {
- 
-  
-}
-
-@media screen and (max-width: 768px) {
-  .extras {
-    display: none;
-  }
-
-  .issue {
-    position: absolute;
-    left: 15px;
-    top: 127px;
-    font-size: 1rem;
-    font-weight: 700;
-  }
-
-  /* .see {
-    position: absolute;
-    left: 15px;
-    top: auto;
-    font-size: 1rem;
-    font-weight: 700;
-    margin: 0 auto;
-  } */
-}
-
-@media screen and (max-width: 576px) {
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
