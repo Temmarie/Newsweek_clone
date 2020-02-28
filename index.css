@@ -91,6 +91,20 @@ nav .upper-nav {
   font-size: 1rem;
 }
 
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.slides {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: 0;
+}
+
 .weather {
   font-weight: 700;
   font-size: 0.8rem;
@@ -136,6 +150,9 @@ nav .upper-nav {
   position: relative;
 }
 
+.right {
+  margin-left: 6rem!important
+}
 
 .wrap3 {
   top: 284px;
@@ -271,6 +288,13 @@ nav .upper-nav {
   left: 65px;
 }
 
+.sub-signup {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .sub-signup h2 {
   font-size: 1.3rem;
   font-weight: 700;
@@ -387,12 +411,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
-
