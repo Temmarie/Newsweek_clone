@@ -15,7 +15,6 @@ Responsive clone of [Newsweek](https://www.newsweek.com/) website.
 ## Live Demo
  [Live Demo](https://raw.githack.com/Temmarie/Newsweek_clone/feature/index.html)
 
-fghjkfdfg
 👤 **Author**
 
 - Github: [@Temmarie](https://github.com/Temmarie)
