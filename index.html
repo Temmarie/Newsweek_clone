@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complete Bootstrap 4 Website Layout</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
+  <link href="reset.css" rel="stylesheet">
+</head>
+
+<body class="bg-light body container-fluid">
+
+
+  <nav class="navbar navbar-expand-lg navbar-light container-fluid d-flex flex-column w-100 flex-nowrap">
+    <!-- sticky top -->
+    <div class="container-fluid row upper-nav p-1">
+      <div class="col-lg-3 col-md-2 col-sm-2 weather-date text-white">
+        <div class="weather">
+          <p> <i class="fas fa-cloud-sun-rain"></i> 27° Lagos, NG &gt;</p>
+        </div>
+
+        <div class="date">
+          <time datetime="2008-02-14 20:00">Tue, February 03, 2020</time>
+        </div>
+      </div>
+
+      <a href="#" class="navbar-brand col-6 col-sm-5 col-md-4 text-center">
+        <img src="images/svgexport-1.png" alt="logo"></a>
+
+      <div
+        class="col-3 subscribe d-lg-flex col-sm-6 flex-row flex-lg-nowrap mt-4 col-md-4 row align-items-center justify-content-baseline">
+        <h4 class="text-white"><strong>SIGN IN</strong></h4>
+        <button class="btn btn-outline-light btn-md rounded-0 bg-white ml-2 subscribe-btn p-0">SUBSCRIBE &gt;</button>
+      </div>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+    <div class="navbar-collapse collapse" id="navbarResponsive">
+      <div class="navlinks container-fluid bg-white">
+        <ul class="navbar-nav  d-flex justify-content-center align-content-between align-items-center flex-grow-1">
+          <li
+            class="nav-item text-center justify-content-center align-self-center .order-sm-1 flex-fill d-flex border-right">
+            <a href="#" class="nav-link text-dark">U.S</a>
+          </li>
+
+          <li
+            class="nav-item text-center justify-content-center align-self-center .order-sm-1 flex-fill d-flex border-right">
+            <a href="#" class="nav-link text-dark">World</a>
+          </li>
+
+          <li
+            class="nav-item text-center justify-content-center align-self-center .order-sm-1 flex-fill d-flex border-right">
+            <a href="#" class="nav-link text-dark">Business</a>
+          </li>
+
+          <li
+            class="nav-item text-center justify-content-center align-self-center .order-sm-1 flex-fill d-flex border-right flex-nowrap">
+            <a href="#" class="nav-link text-dark">Tech &amp; Science</a>
+          </li>
+
+          <li
+            class="nav-item text-center justify-content-center align-self-center .order-sm-1 flex-fill d-flex border-right">
+            <a href="#" class="nav-link text-dark">Culture</a>
+          </li>
+
+          <li
+            class="nav-item text-center justify-content-center align-self-center .order-sm-1 flex-fill d-flex border-right">
+            <a href="#" class="nav-link text-dark">Newsgeek</a>
+          </li>
+
+          <li
+            class="nav-item text-center justify-content-center align-self-center .order-sm-1 flex-fill d-flex border-right">
+            <a href="#" class="nav-link text-dark">Sports</a>
+          </li>
+
+          <li
+            class="nav-item text-center justify-content-center align-self-center .order-sm-1 flex-fill d-flex border-right">
+            <a href="#" class="nav-link text-dark">Health</a>
+          </li>
+
+          <li
+            class="nav-item text-center justify-content-center align-self-center .order-sm-1 flex-fill d-flex border-right flex-nowrap">
+            <a href="#" class="nav-link text-dark">The Debate</a>
+          </li>
+
+          <li
+            class="nav-item text-center justify-content-center align-self-center .order-sm-1 flex-fill d-flex border-right ">
+            <a href="#" class="nav-link text-dark ">Vantage</a>
+          </li>
+
+          <li class="nav-item text-center justify-content-center align-self-center .order-sm-1 flex-fill d-flex">
+            <a href="#" class="nav-link text-dark">Weather</a>
+          </li>
+
+          <li class="nav-item text-center .order-sm-0 flex-fill d-flex">
+            <input type="text" placeholder="Search" style="font-weight: 100;" class="border-0"> <i
+              class="fas fa-search z-index-99 position-absolute"></i>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  
+  <div class=" main mt-2 bg-white col-md-12 col-sm-11 col-lg-12 container-fluid">
+    <!-- Featured stories-->
+    <section class="col-lg-4 col-md-5 col-sm-12">
+      <div class="featured-stories">
+        <h4 class="featured"> FEATURED STORIES</h4>
+        <div>
+          <a href="#" class="bg-light text-danger p-2 wrap2">U.S.</a>
+          <img src="images/coronavirus.webp" alt="coronavirus" class="position-relative">
+        </div>
+        <h3 class="img-title mb-2">Coronavirus Update: Cases Outside China Spike 26 Percent in Single Day</h3>
+        <p>On Monday, the European Commission announced 232 million euros would be mobilized to help fight the virus.
+        </p>
+
+      </div>
+      <!-- culture -->
+      <div class="featured-stories">
+        <div>
+          <a href="#" class="bg-light text-danger p-2 wrap2">CULTURE</a>
+          <img src="images/annabella-sciorra.webp" alt="coronavirus" class="position-relative"></div>
+
+        <h3 class="img-title mb-2">Annabella Sciorra Thanked by Celebrities After Harvey Weinstein Verdict</h3>
+        <p>After providing testimony against the Hollywood movie producer, the name of actress Annabella Sciorra was
+          trending on Twitter by users following the conviction of Harvey Weinstein.
+        </p>
+        <hr>
+        <p><b>South Korea Has Second Most Coronavirus Cases After China, President Says Country Faces 'Grave Turning
+            Point'</b></p>
+        <hr>
+      </div>
+      <!-- newsgeek -->
+      <div class="featured-stories mt-2">
+        <div>
+          <a href="#" class="bg-light text-danger p-2 wrap2">NEWSGEEK</a>
+          <img src="images/hiddenfig.webp" alt="coronavirus" class="position-relative"></div>
+
+        <h3 class="img-title mb-2">Five Facts About Late NASA 'Hidden Figures' Mathematician Katherine Johnson</h3>
+        <p> Here are five facts about the extraordinary NASA mathematician, Katherine Johnson, who died at the age of
+          101, whose trailblazing accomplishments were depicted in "Hidden Figures."
+        </p>
+      </div>
+      <!-- us-->
+      <div class="featured-stories mt-2">
+        <div>
+          <a href="#" class="bg-light text-danger p-2 wrap2">U.S</a>
+          <img src="images/armadillo.webp" alt="coronavirus" class="position-relative"></div>
+
+        <h3 class="img-title mb-2">Annabella Sciorra Thanked by Celebrities After Harvey Weinstein Verdict</h3>
+        <p>After providing testimony against the Hollywood movie producer, the name of actress Annabella Sciorra was
+          trending on Twitter by users following the conviction of Harvey Weinstein.
+        </p>
+      </div>
+
+      <!-- newsgeek -->
+      <div class="featured-stories mt-4">
+        <div>
+          <a href="#" class="bg-light text-danger p-2 wrap2">NEWSGEEK</a>
+          <img src="images/hiddenfig.webp" alt="coronavirus" class="position-relative"></div>
+
+        <h3 class="img-title mb-2">Five Facts About Late NASA 'Hidden Figures' Mathematician Katherine Johnson</h3>
+        <p> Here are five facts about the extraordinary NASA mathematician, Katherine Johnson, who died at the age of
+          101, whose trailblazing accomplishments were depicted in "Hidden Figures."
+        </p>
+      </div>
+
+      <!-- newsgeek -->
+      <div class="featured-stories stories-2 mt-4">
+        <div>
+          <a href="#" class="bg-light text-danger p-2 wrap2">NEWSGEEK</a>
+          <img src="images/hiddenfig.webp" alt="coronavirus" class="position-relative"></div>
+
+        <h3 class="img-title mb-2">Five Facts About Late NASA 'Hidden Figures' Mathematician Katherine Johnson</h3>
+        <p> Here are five facts about the extraordinary NASA mathematician, Katherine Johnson, who died at the age of
+          101, whose trailblazing accomplishments were depicted in "Hidden Figures."
+        </p>
+      </div>
+
+      <!-- newsgeek -->
+      <div class="featured-stories stories-2 mt-4">
+        <div>
+          <a href="#" class="bg-light text-danger p-2 wrap2">NEWSGEEK</a>
+          <img src="images/hiddenfig.webp" alt="coronavirus" class="position-relative"></div>
+
+        <h3 class="img-title mb-2">Five Facts About Late NASA 'Hidden Figures' Mathematician Katherine Johnson</h3>
+        <p> Here are five facts about the extraordinary NASA mathematician, Katherine Johnson, who died at the age of
+          101, whose trailblazing accomplishments were depicted in "Hidden Figures."
+        </p>
+      </div>
+
+    </section>
+    <!-- middle section -->
+    <section class="col-lg-5 col-md-7 col-sm-12">
+      <!-- top stories -->
+      <div class="top-story col-lg-12 col-md-12 col-sm-12">
+        <h4 class="featured"> TOP STORIES</h4>
+        <div>
+          <a href="#" class="bg-light text-danger p-2 wrap3">U.S.</a>
+          <img src="images/harvey-weinstein.webp" alt="coronavirus" class="card-img-top top-story-img">
+        </div>
+
+        <h3 class="img-title mb-2">Harvey Weinstein Convicted on Two Counts in Sexual Assault Case</h3>
+        <p>The disgraced movie producer was found guilty of rape and a felony sex crime but was acquitted of other
+          charges, including predatory sexual assault.
+        </p>
+
+        <hr>
+        <div class="trump-middle row col-lg-12">
+          <img src="images/nikkei.webp" class="" alt="trump">
+          <div class="float-right col-lg-9">
+            <h4 class="img-title mb-2">Trump Blames CDC for Spooking Investors With Coronavirus Fears</h4>
+            <p>The president has informed his advisers not to make dire predictions about the financial impact of the
+              virus, The Washington Post reported</p>
+          </div>
+        </div>
+        <div class="updates">
+          <hr>
+          <strong>Coronavirus Update: Map Shows More Than 81,000 Cases</strong>
+          <hr>
+        </div>
+      </div>
+
+
+      <!-- culture and travel -->
+      <div class="row culture-travel mt-3">
+        <h4 class="featured mb-3 ml-3"> CULTURE &amp; TRAVEL</h4>
+        <div class="row col-lg-12">
+          <div class="col-lg-4 col-sm-12 col-md-4">
+            <div>
+              <a href="#" class="bg-info text-dark p-1 wrap4">News</a>
+              <img src="images/coronaitaly.webp" alt="coronavirus" class="position-relative">
+            </div>
+
+            <h3 class="img-titles">Coronavirus Italy Update: Europe's First Major Outbreak Sees Fourth Death</h3>
+            <p class="img-p">Newsweek's top fiction and nonfiction spring books to entertain and excite your
+              imagination from the
+              blustery days of late winter until the sun shines in the spring.</p>
+          </div>
+
+          <div class="col-lg-4 col-sm-12 col-md-4">
+            <div>
+              <a href="#" class="bg-info text-dark p-1 wrap4">Books</a>
+              <img src="images/cakebook.webp" alt="coronavirus" class="position-relative">
+            </div>
+
+            <h3 class="img-titles">40 Must-Read Fiction and Nonfiction Books to Savor This Spring</h3>
+            <p class="img-p">Newsweek's top fiction and nonfiction spring books to entertain and excite your
+              imagination from the
+              blustery days of late winter until the sun shines in the spring.</p>
+          </div>
+
+          <div class="col-lg-4 col-sm-12 col-md-4">
+            <div>
+              <a href="#" class="bg-info text-dark p-1 wrap4">Travel </a>
+              <img src="images/travel.webp" alt="coronavirus" class="position-relative">
+
+            </div>
+
+            <h3 class="img-titles">Sacred Journeys Around the World</h3>
+            <p class="img-p">Newsweek's top fiction and nonfiction spring books to entertain and excite your
+              imagination from the
+              blustery days of late winter until the sun shines in the spring.</p>
+          </div>
+
+          <!-- more stories -->
+          <div class="more mt-5 col-sm-12">
+            <h4 class="featured">MORE STORIES </h4>
+            <hr class="my-4 mt-2">
+            <div class="more-news-info col-12">
+              <div class="row mt-3">
+                <img src="images/black.webp" class="more-pres col-md-4 col-sm-4" alt="corona">
+                <p class="col-lg-8 col-md-8 col-sm-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                    Warren</strong>
+                  Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                  make
+                  way for "new leadership" in the Democratic party.</p>
+              </div>
+              <hr class="my-4">
+
+              <div class="row mt-3">
+                <img src="images/black.webp" class="more-pres col-md-4 col-sm-4" alt="corona">
+                <p class="col-lg-8 col-md-8 col-sm-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                    Warren</strong>
+                  Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                  make
+                  way for "new leadership" in the Democratic party.</p>
+              </div>
+              <hr class="my-4">
+
+              <div class="row mt-3">
+                <img src="images/black.webp" class="more-pres col-md-4 col-sm-4" alt="corona">
+                <p class="col-lg-8 col-md-8 col-sm-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                    Warren</strong>
+                  Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                  make
+                  way for "new leadership" in the Democratic party.</p>
+              </div>
+              <hr class="my-4">
+
+              <div class="row mt-3">
+                <img src="images/black.webp" class="more-pres col-md-4 col-sm-4" alt="corona">
+                <p class="col-lg-8 col-md-8 col-sm-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                    Warren</strong>
+                  Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                  make
+                  way for "new leadership" in the Democratic party.</p>
+              </div>
+              <hr class="my-4">
+
+              <div class="row mt-3">
+                <img src="images/black.webp" class="more-pres col-md-4 col-sm-4" alt="corona">
+                <p class="col-lg-8 col-md-8 col-sm-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                    Warren</strong>
+                  Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                  make
+                  way for "new leadership" in the Democratic party.</p>
+              </div>
+              <hr class="my-4">
+
+              <div class="row mt-3">
+                <img src="images/black.webp" class="more-pres col-md-4 col-sm-4" alt="corona">
+                <p class="col-lg-8 col-md-8 col-sm-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                    Warren</strong>
+                  Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                  make
+                  way for "new leadership" in the Democratic party.</p>
+              </div>
+
+              <hr class="my-4">
+              <div class="row mt-3 stories-1 new-news">
+                <img src="images/black.webp" class="more-pres col-md-4 col-sm-4" alt="corona">
+                <p class="col-lg-8 col-md-8 col-sm-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                    Warren</strong>
+                  Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                  make
+                  way for "new leadership" in the Democratic party.</p>
+              </div>
+              <hr class="my-4">
+
+              <div class="row mt-3 stories-1 new-news">
+                <img src="images/black.webp" class="more-pres col-md-4 col-sm-4" alt="corona">
+                <p class="col-lg-8 col-md-8 col-sm-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                    Warren</strong>
+                  Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                  make
+                  way for "new leadership" in the Democratic party.</p>
+              </div>
+
+              <hr class="my-4">
+              <div class="row mt-3 new-news stories-1">
+                <img src="images/black.webp" class="more-pres col-md-4 col-sm-4" alt="corona">
+                <p class="col-lg-8 col-md-8 col-sm-8"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                    Warren</strong>
+                  Patrisse Cullors said the former vice president was part of an "old establishment" and needed to
+                  make
+                  way for "new leadership" in the Democratic party.</p>
+              </div>
+
+              <hr class="my-4">
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="col-lg-3 col-md-12 col-sm-12 col3">
+
+      <div class="opinion col-12">
+        <h4 class="featured"> OPINION</h4>
+        <div class="opinions">
+          <div class="opinion-info row d-flex flex-row flex-nowrap">
+            <img src="images/opinion6.webp" class="pr-2 opinion-img" alt="opinions">
+
+            <p class="col-lg-10 col-xl-11">
+
+              Hal Donahue Is Scouting Worth Saving? Not Under the Boy Scouts of America
+              <br><span class="text-secondary">BY HAL DONAHUE</span></p>
+          </div>
+
+          <hr>
+
+          <div class="opinion-info row d-flex flex-row flex-nowrap">
+            <img src="images/opinion6.webp" class="pr-2 opinion-img" alt="opinions">
+
+            <p class="col-lg-10 col-xl-11">
+
+              Hal Donahue Is Scouting Worth Saving? Not Under the Boy Scouts of America<br>
+              <span class="text-secondary">BY HAL DONAHUE</span></p>
+          </div>
+
+          <hr>
+
+          <div class="opinion-info row d-flex flex-row flex-nowrap">
+            <img src="images/opinion6.webp" class="pr-2 opinion-img" alt="opinions">
+
+            <p class="col-lg-10 col-xl-11">
+
+              Hal Donahue Is Scouting Worth Saving? Not Under the Boy Scouts of America
+              <br><span class="text-secondary">BY HAL DONAHUE</span></p>
+          </div>
+          <hr>
+
+          <div class="opinion-info row d-flex flex-row flex-nowrap">
+            <img src="images/opinion6.webp" class="pr-2 opinion-img" alt="opinions">
+
+            <p class="col-lg-10 col-xl-11">
+
+              Hal Donahue Is Scouting Worth Saving? Not Under the Boy Scouts of America
+              <br><span class="text-secondary">BY HAL DONAHUE</span></p>
+          </div>
+          <hr>
+
+          <div class="opinion-info row d-flex flex-row flex-nowrap">
+            <img src="images/opinion6.webp" class="pr-2 opinion-img" alt="opinions">
+
+            <p class="col-lg-10 col-xl-11">
+
+              Hal Donahue Is Scouting Worth Saving? Not Under the Boy Scouts of America<br>
+              <span class="text-secondary">BY HAL DONAHUE</span></p>
+          </div>
+          <hr>
+
+          <div class="opinion-info row d-flex flex-row flex-nowrap">
+            <img src="images/opinion6.webp" class="pr-2 opinion-img" alt="opinions">
+
+            <p class="col-lg-10 col-xl-11">
+
+              Hal Donahue Is Scouting Worth Saving? Not Under the Boy Scouts of America<br>
+              <span class="text-secondary">BY HAL DONAHUE</span></p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- debate -->
+      <div class="debate col-12 mt-5">
+        <h4 class="featured"> THE DEBATE</h4>
+        <hr class="border-bottom debate-bar">
+
+        <div class="versus">
+          <div class="debaters row ">
+            <img src="images/annabella-sciorra.webp" class="debate-img col-lg-5 col-md-3 col-sm-4 col-xl-4"
+              alt="debate">
+            <p class="col-lg-7 col-md-9 col-xl-7 col-sm-8">Say Bye to Media Coverage If Pelosi Succeeds in Censoring Our
+              Video</p>
+          </div>
+
+          <hr class="border-bottom pb-1">
+
+          <div class="author row mt-0 mb-2">
+            <p class="mt-0 ml-3">BY <b>BENNY JOHNSON</b> </p>
+            <img src="images/opinion6.webp" class="mt-0 author-img" alt="author">
+          </div>
+
+          <span class="m-0 auto text-center text-light rounded-circle p-1 bg-dark"><b>VS</b></span>
+
+
+          <hr class="border-bottom debate-bar">
+          <div class="debaters row mt-3">
+            <img src="images/obama.webp" class="debate-img col-md-3 col-lg-5 col-xl-4 col-sm-4" alt="debate">
+            <p class="col-lg-7 col-md-9 col-xl-7 col-sm-8">Say Bye to Media Coverage If Pelosi Succeeds in Censoring Our
+              Video</p>
+          </div>
+
+          <hr class="border-bottom pb-1">
+
+          <div class="author row mt-0 mb-2">
+            <p class="mt-0 ml-3">BY <b>BENNY JOHNSON</b> </p>
+            <img src="images/opinion6.webp" class="mt-0 author-img" alt="author">
+          </div>
+        </div>
+
+        <div class="latest mt-3">
+          <h4 class="featured">LATEST NEWS</h4>
+          <div class="more-news-info col-12 col-md-12 col-sm-12">
+            <div class="news d-flex">
+              <img src="images/black.webp" class="black-pres" alt="corona">
+              <p class="float-right col-lg-12 col-sm-12"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                  Warren</strong></p>
+            </div>
+            <hr class="my-4">
+
+
+            <div class="news d-flex">
+              <img src="images/black.webp" class="black-pres" alt="corona">
+              <p class="float-right col-lg-12 col-sm-12"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                  Warren</strong></p>
+            </div>
+            <hr class="my-4">
+
+            <div class="news d-flex">
+              <img src="images/black.webp" class="black-pres" alt="corona">
+              <p class="float-right col-lg-12 col-sm-12"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                  Warren</strong></p>
+            </div>
+            <hr class="my-4">
+
+            <div class="news d-flex">
+              <img src="images/black.webp" class="black-pres" alt="corona">
+              <p class="float-right col-lg-12 col-sm-12"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                  Warren</strong></p>
+            </div>
+            <hr class="my-4">
+
+            <div class="news d-flex">
+              <img src="images/black.webp" class="black-pres" alt="corona">
+              <p class="float-right col-lg-12 col-sm-12"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                  Warren</strong></p>
+            </div>
+            <hr class="my-4">
+
+            <div class="news d-flex">
+              <img src="images/black.webp" class="black-pres" alt="corona">
+              <p class="float-right col-lg-12 col-sm-12"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                  Warren</strong></p>
+            </div>
+            <hr class="my-4">
+            <div class="news d-flex">
+              <img src="images/black.webp" class="black-pres" alt="corona">
+              <p class="float-right col-lg-12 col-sm-12"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                  Warren</strong></p>
+            </div>
+            <hr class="my-4">
+            <div class="news  new-news stories-1 d-flex">
+              <img src="images/black.webp" class="black-pres" alt="corona">
+              <p class="float-right col-lg-12 col-sm-12"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                  Warren</strong></p>
+            </div>
+
+            <hr class="my-4 stories-1 new-news">
+            <div class="news  new-news stories-1 d-flex">
+              <img src="images/black.webp" class="black-pres" alt="corona">
+              <p class="float-right col-lg-12 col-sm-12"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                  Warren</strong></p>
+            </div>
+
+            <hr class="my-4 stories-1 new-news">
+            <div class="news  new-news stories-1 d-flex">
+              <img src="images/black.webp" class="black-pres" alt="corona">
+              <p class="float-right col-lg-12 col-sm-12"><strong>Black Lives Matter Co-Founder Endorses Sanders and
+                  Warren</strong></p>
+            </div>
+
+
+
+
+
+
+
+          </div>
+
+
+        </div>
+
+
+        <div class="signup bg-light border p-4 mt-5 col-md-4 col-sm-12 col-xl-12 col-lg-12">
+          <div>
+            <div class="d-flex bigN-para">
+              <span class="bigN-btn text-light btn-lg rounded-0">N</span>
+              <p class="pl-2"><strong>SIGN UP FOR OUR
+                  NEWSLETTER</strong></p>
+            </div>
+            <br>
+            <button class="signup-btn btn-outline-light bg-secondary btn-lg">SIGN UP &gt;</button>
+            <br>
+            <small><b>Update your preferences&gt;&gt;</b></small>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="text-center col-12 magazine">
+      <span class="bigN-btn text-light btn-lg rounded-0">N</span> <strong>IN THE MAGAZINE</strong>
+    </div>
+    
+    <div class="middle col-lg-12 col-md-12 m-0 auto">
+      <hr>
+      <div class="middle-container col-12">
+        <div class="container-fluid row">
+          <div class="cover col-lg-3 col-sm-12 col-md-3">
+            <div>
+              <a href="#" class="bg-light text-danger february"> FEBRUARY 28 ISSUE</a>
+              <img src="images/february-cover.webp" class="position-relative feb-cover" alt="cover">
+            </div>
+            <p class="bg-light p-2 see">SEE ALL FEATURES</p>
+          </div>
+
+          <div class="articles articles-1 col-lg-3 col-sm-12 col-md-3">
+            <img src="images/armadillo.webp" class="" alt="world">
+            <p class="mt-3">
+              <span class="p-1 text-light"><b>COVER</b></span>
+              <span class="inner-span bg-white"><b>WORLD</b></span><br>
+              <b>Growth Can Be Green. Here's How</b>
+            </p>
+
+          </div>
+
+          <div class="articles articles-1 col-lg-3 col-sm-12 col-md-3">
+            <img src="images/annabella-sciorra.webp" class="" alt="world">
+            <p class="mt-3">
+              <span class="p-1 text-light"><b>COVER</b></span>
+              <span class="inner-span bg-white"><b>WORLD</b></span><br>
+              <b>Growth Can Be Green. Here's How</b>
+            </p>
+
+          </div>
+
+          <div class="articles articles-1 col-lg-3 col-sm-12 col-md-3">
+            <img src="images/bohemian.webp" class="" alt="world">
+            <p class="mt-3">
+              <span class="p-1 text-light"><b>COVER</b></span>
+              <span class="inner-span bg-white"><b>WORLD</b></span><br>
+              <b>Growth Can Be Green. Here's How</b>
+            </p>
+
+          </div>
+
+          <div class="articles articles-1  col-lg-3 col-sm-12 mt-4 col-md-3">
+            <img src="images/obama.webp" class="" alt="world">
+            <p class="mt-3">
+              <span class="p-1 text-light"><b>COVER</b></span>
+              <span class="inner-span bg-white"><b>WORLD</b></span><br>
+              <b>Growth Can Be Green. Here's How</b>
+            </p>
+
+          </div>
+
+          <div class="articles articles-1  col-lg-3 col-sm-12 mt-4 col-md-3">
+            <img src="images/trump.webp" class="" alt="world">
+            <p class="mt-3">
+              <span class="p-1 text-light"><b>COVER</b></span>
+              <span class="inner-span bg-white"><b>WORLD</b></span><br>
+              <b>Growth Can Be Green. Here's How</b>
+            </p>
+
+          </div>
+
+          <div class="articles articles-1  col-lg-3 col-sm-12 mt-4 col-md-3">
+            <img src="images/travel.webp" class="" alt="world">
+            <p class="mt-3">
+              <span class="p-1 text-light"><b>COVER</b></span>
+              <span class="inner-span bg-white"><b>WORLD</b></span><br>
+              <b>Growth Can Be Green. Here's How</b>
+            </p>
+
+          </div>
+
+          <div class="articles col-lg-3 col-sm-12 col-md-3">
+            <div>
+              <a href="#" class="bg-light text-danger february"> IN FOCUS</a>
+              <img src="images/february-cover.webp" class="position-relative in-focus" alt="cover">
+            </div>
+            <p class="font-weight-bold">Lorem Ipsum Dolor Lorem Ipsum Dolor</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <section class="editors-picks col-lg-12 mt-5">
+    <div class="editors">
+      <h3 class="display-4 text-center"><span class="mr-3 bigN-btn text-light btn-lg rounded-0">N</span>EDITOR'S PICKS
+      </h3>
+      <hr>
+
+      <div class="row">
+        <div class="articles-editors col-lg-3 col-md-6 col-sm-12 mb-3 card border-0">
+          <div>
+            <a href="#" class="bg-light text-danger p-2 news-wrap"> NEWS</a>
+            <img src="images/nasa.webp" class=" position-relative card-img-top" alt="newyork">
+          </div>
+          <div class="card-body">
+            <strong class="card-text">WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow
+              Words'</strong>
+            <p class="mt-2 card-text">
+              "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+              years
+              ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+            </p>
+          </div>
+
+
+        </div>
+
+        <div class="articles-editors col-lg-3 col-md-6 col-sm-12 mb-3 card border-0">
+          <div>
+            <a href="#" class="bg-light text-danger p-2 news-wrap"> NEWS</a>
+            <img src="images/cakebook.webp" class=" position-relative card-img-top" alt="newyork">
+          </div>
+          <div class="card-body">
+            <strong class="card-text">WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow
+              Words'</strong>
+            <p class="mt-2 card-text">
+              "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+              years
+              ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+            </p>
+          </div>
+        </div>
+
+        <div class="articles-editors col-lg-3 col-md-6 col-sm-12 mb-3 card border-0">
+          <div>
+            <a href="#" class="bg-light text-danger p-2 news-wrap"> NEWS</a>
+            <img src="images/bohemian.webp" class=" position-relative card-img-top" alt="newyork">
+          </div>
+          <div class="card-body">
+            <strong class="card-text">WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow
+              Words'</strong>
+            <p class="mt-2 card-text">
+              "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+              years
+              ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+            </p>
+          </div>
+        </div>
+
+        <div class="articles-editors col-lg-3 col-md-6 col-sm-12 mb-3 card border-0">
+          <div>
+            <a href="#" class="bg-light text-danger p-2 news-wrap"> NEWS</a>
+            <img src="images/bloomberg.webp" class=" position-relative card-img-top" alt="newyork">
+          </div>
+          <div class="card-body">
+            <strong class="card-text">WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow
+              Words'</strong>
+            <p class="mt-2 card-text">
+              "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+              years
+              ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+            </p>
+          </div>
+        </div>
+
+        <div class="articles-editors col-lg-3 col-md-6 col-sm-12 mb-3 card border-0">
+          <div>
+            <a href="#" class="bg-light text-danger p-2 news-wrap"> NEWS</a>
+            <img src="images/galapagos.webp" class=" position-relative card-img-top" alt="newyork">
+          </div>
+          <div class="card-body">
+            <strong class="card-text">WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow
+              Words'</strong>
+            <p class="mt-2 card-text">
+              "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+              years
+              ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+            </p>
+          </div>
+        </div>
+
+        <div class="articles-editors col-lg-3 col-md-6 col-sm-12 mb-3 card border-0">
+          <div>
+            <a href="#" class="bg-light text-danger p-2 news-wrap"> NEWS</a>
+            <img src="images/download.webp" class=" position-relative card-img-top" alt="newyork">
+          </div>
+          <div class="card-body">
+            <strong class="card-text">WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow
+              Words'</strong>
+            <p class="mt-2 card-text">
+              "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+              years
+              ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+            </p>
+          </div>
+        </div>
+
+        <div class="articles-editors col-lg-3 col-md-6 col-sm-12 mb-3 card border-0">
+          <div>
+            <a href="#" class="bg-light text-danger p-2 news-wrap"> NEWS</a>
+            <img src="images/armadillo.webp" class=" position-relative card-img-top" alt="newyork">
+          </div>
+          <div class="card-body">
+            <strong class="card-text">WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow
+              Words'</strong>
+            <p class="mt-2 card-text">
+              "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+              years
+              ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+            </p>
+          </div>
+        </div>
+
+        <div class="articles-editors col-lg-3 col-md-6 col-sm-12 mb-3 card border-0">
+          <div>
+            <a href="#" class="bg-light text-danger p-2 news-wrap"> NEWS</a>
+            <img src="images/alaskan.webp" class=" position-relative card-img-top" alt="newyork">
+          </div>
+          <div class="card-body">
+            <strong class="card-text">WikiLeaks Editor Calls Assange Extradition Arguments by U.S. 'Hollow
+              Words'</strong>
+            <p class="mt-2 card-text">
+              "The words that are coming out from the United States about WikiLeaks revelations were hollow 10
+              years
+              ago, and they don't increase in legitimacy as years go by," Kristinn Hrafnsson said.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="col-12 mb-5 mt-5 bg-white">
+    <div class="slideshow">
+      <div class="slide-title">
+        <h3 class="display-4 text-center"><span class="mr-3 bigN-btn text-light btn-lg rounded-0">N</span>FEATURED
+          SLIDESHOWS</h3>
+      </div>
+      <hr>
+      <div class="slides row">
+        <div class="col-lg-4 col-md-4 mb-4">
+          <img src="images/travel.webp" alt="arma" class="position-relative slides-img">
+          <a href="#" class="wrap-1"><img src="images/11icon.png" alt="11" class="position-absolute feature-img"></a>
+          <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
+        </div>
+
+        <div class="col-lg-4 col-md-4 mb-4">
+          <img src="images/alaskan.webp" alt="arma" class="position-relative slides-img">
+          <a href="#" class="wrap-1"><img src="images/11icon.png" alt="11" class="position-absolute feature-img"></a>
+          <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
+        </div>
+
+
+        <div class="col-lg-4 col-md-4 mb-4">
+          <img src="images/armadillo.webp" alt="arma" class="position-relative slides-img">
+          <a href="#" class="wrap-1"><img src="images/11icon.png" alt="11" class="position-absolute feature-img"></a>
+          <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
+        </div>
+
+
+        <div class="col-lg-4 col-md-4 mb-4">
+          <img src="images/bohemian.webp" alt="arma" class="position-relative slides-img">
+          <a href="#" class="wrap-1"><img src="images/11icon.png" alt="11" class="position-absolute feature-img"></a>
+          <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
+        </div>
+
+
+        <div class="col-lg-4 col-md-4 mb-4">
+          <img src="images/galapagos.webp" alt="arma" class="position-relative slides-img">
+          <a href="#" class="wrap-1"><img src="images/11icon.png" alt="11" class="position-absolute feature-img"></a>
+          <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
+        </div>
+
+        <div class="col-lg-4 col-md-4 mb-4">
+          <img src="images/volcanoes.webp" alt="arma" class="position-relative slides-img">
+          <a href="#" class="wrap-1"><img src="images/11icon.png" alt="11" class="position-absolute feature-img"></a>
+          <p>The New Documentary Trying to Save the Most Trafficked Mammals in the World</p>
+        </div>
+
+      </div>
+
+    </div>
+    <hr class="my-4">
+
+  </section>
+
+  <section class="extras bg-white">
+    <div class="extra-news col-12">
+      <div class="US">
+        <div>
+          <h4 class="mb-2">U.S.</h4><br>
+        </div>
+        <div class="row col-md-12">
+          <div class="col-lg-4 col-md-4">
+            <img src="images/hunter.webp" alt="bloomberg">
+            <p>#EatTheRich Trends After Mike Bloomberg Campaign Offices Vandalize</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <img src="images/impeach.webp" alt="bloomberg">
+            <p>#EatTheRich Trends After Mike Bloomberg Campaign Offices Vandalize</p>
+          </div>
+
+          <div class="sidebar col-lg-4 col-md-4">
+            <div class="sides ">
+              <div>
+                <img src="images/latestimg.webp" class=" col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+              <hr>
+              <div>
+                <img src="images/obama.webp" class="col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+              <hr>
+              <div>
+                <img src="images/border-patrol.webp" class=" col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="US">
+        <div>
+          <h4 class="mb-2">Sports</h4><br>
+        </div>
+        <div class="row col-md-12">
+          <div class="col-lg-4 col-md-4">
+            <img src="images/armadillo.webp" alt="bloomberg">
+            <p>#EatTheRich Trends After Mike Bloomberg Campaign Offices Vandalize</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <img src="images/trump.webp" alt="bloomberg">
+            <p>#EatTheRich Trends After Mike Bloomberg Campaign Offices Vandalize</p>
+          </div>
+
+          <div class="sidebar col-lg-4 col-md-4">
+            <div class="sides ">
+              <div>
+                <img src="images/periscope.webp" class=" col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+              <hr>
+              <div>
+                <img src="images/world.webp" class="col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+              <hr>
+              <div>
+                <img src="images/galapagos.webp" class=" col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="US">
+        <div>
+          <h4 class="mb-2">Politics</h4><br>
+        </div>
+        <div class="row col-md-12">
+          <div class="col-lg-4 col-md-4">
+            <img src="images/trump.webp" alt="bloomberg">
+            <p>#EatTheRich Trends After Mike Bloomberg Campaign Offices Vandalize</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <img src="images/impeach.webp" alt="bloomberg">
+            <p>#EatTheRich Trends After Mike Bloomberg Campaign Offices Vandalize</p>
+          </div>
+
+          <div class="sidebar col-lg-4 col-md-4">
+            <div class="sides ">
+              <div>
+                <img src="images/obama.webp" class=" col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+              <hr>
+              <div>
+                <img src="images/border-patrol.webp" class="col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+              <hr>
+              <div>
+                <img src="images/bloomberg.webp" class=" col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="US">
+        <div>
+          <h4 class="mb-2">U.S.</h4><br>
+        </div>
+        <div class="row col-md-12">
+          <div class="col-lg-4 col-md-4">
+            <img src="images/hunter.webp" alt="bloomberg">
+            <p>#EatTheRich Trends After Mike Bloomberg Campaign Offices Vandalize</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <img src="images/impeach.webp" alt="bloomberg">
+            <p>#EatTheRich Trends After Mike Bloomberg Campaign Offices Vandalize</p>
+          </div>
+
+          <div class="sidebar col-lg-4 col-md-4">
+            <div class="sides ">
+              <div>
+                <img src="images/latestimg.webp" class=" col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+              <hr>
+              <div>
+                <img src="images/obama.webp" class="col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+              <hr>
+              <div>
+                <img src="images/border-patrol.webp" class=" col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="US">
+        <div>
+          <h4 class="mb-2">Culture</h4><br>
+        </div>
+        <div class="row col-md-12">
+          <div class="col-lg-4 col-md-4">
+            <img src="images/volcanoes.webp" alt="bloomberg">
+            <p>#EatTheRich Trends After Mike Bloomberg Campaign Offices Vandalize</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <img src="images/galapagos.webp" alt="bloomberg">
+            <p>#EatTheRich Trends After Mike Bloomberg Campaign Offices Vandalize</p>
+          </div>
+
+          <div class="sidebar col-lg-4 col-md-4">
+            <div class="sides ">
+              <div>
+                <img src="images/latestimg.webp" class=" col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+              <hr>
+              <div>
+                <img src="images/periscope.webp" class="col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+              <hr>
+              <div>
+                <img src="images/travel.webp" class=" col-lg-4" alt="side">
+                <strong class="col-lg-8 float-right">FBI Probes Border Patrol Union After $500,000 Goes Missing:
+                  Report</strong>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </section>
+
+  <section class="sub-signup col-12 bg-white p-5">
+    <div class="sub-class col-lg-7 col-md-12 col-sm-12">
+      <div class="sub-signup">
+        <h4><strong>SUBSCRIBE</strong></h4>
+      </div>
+      <div class="bg-light p-0 anywhere">
+        <div class="row">
+          <div class="img-wrap col-lg-4 bg-light col-md-4">
+            <img src="images/cover1.jpg" class="row position-relative cover1" alt="cover">
+            <img src="images/cover2.jpg" class="row position-absolute cover2" alt="cover">
+          </div>
+          <div class="col-lg-8 left-sub col-md-8 bg-light col-sm-12">
+            <h2>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h2>
+            <p class="mt-4 mb-5"> All Access + Weekly Delivery.
+              Choose A Membership That's Perfect for You!</p>
+            <span class="bigN-btn btn-outline-light p-1 rounded-0 bottom-sub">SUBSCRIBE &gt;</span>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-12 col-sm-12 float-right justify-content-between">
+      <div class="news-block-header">
+        <div class="sub-signup">
+          <h4>NEWSLETTER</h4>
+        </div>
+        <div class="news-block border row p-0">
+          <div class="sign-up col-lg-6 col-md-4">
+            <img src="images/newsweek.png" class="position-relative newsweek" alt="newsweek">
+          </div>
+          <div class="starting col-lg-6 col-md-8">
+            <h2>THE STARTING 5</h2>
+            <p class="mb-4">Take back your inbox. Sign up for our newsletter and start making sense of
+              the world around you.</p>
+            <span class="bigN-btn btn-outline-light p-1 rounded-0">SIGN UP &gt;</span>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+
+  <footer class="col-12 container-fluid footer bg-white pt-5 pb-5">
+    <div class="footer-header container-fluid">
+      <div class="left row container-fluid">
+        <div class="row d-flex flex-row container-fluid"> <img src="images/svgexport-2.png" class="logo" alt="logo">
+          <small class="mt-5 ml-4 small text-secondary"> &copy; 2020 NEWSWEEK</small></div>
+      </div>
+
+      <div class="right-header float-right d-inlineflex justify-content-between flex-row flex-nowrap">
+        <i class="fab fa-facebook-square ml-2"></i>
+        <i class="fab fa-twitter ml-2"></i>
+        <i class="fab fa-instagram ml-2"></i>
+        <i class="fab fa-tumblr ml-2"></i>
+        <i class="fab fa-linkedin-in ml-2"></i>
+      </div>
+    </div>
+    <hr>
+
+    <div class="container-fluid bottom-footer">
+
+      <ul class="country col-lg-6 col-xl-4 row mb-3">
+        <li> Editions:</li>
+        <li class="border-right pr-2">U.S. Edition</li>
+        <li class="border-right pr-2"> 日本</li>
+        <li class="border-right pr-2">Pakistan</li>
+        <li class="border-right pr-2">Polska</li>
+        <li> România</li>
+      </ul>
+
+      <ul class="contact row col-12">
+        <li class="border-right pr-2"> About Us</li>
+        <li class="border-right pr-2 ml-2">Corrections</li>
+        <li class="border-right pr-2 ml-2">Contact Us</li>
+        <li class="border-right pr-2 ml-2">Editorial Guidelines</li>
+        <li class="border-right pr-2 ml-2">Advertise</li>
+        <li class="border-right pr-2 ml-2">Copyright</li>
+        <li class="border-right pr-2 ml-2">Terms & Conditions</li>
+        <li class="border-right pr-2 ml-2">Privacy Policy</li>
+        <li class="border-right pr-2">Cookie Policy</li>
+        <li class="border-right pr-2">Terms of Sale</li>
+        <li class="border-right pr-2 pl-2">Archive</li>
+        <li class="border-right pr-2 pl-2">Announcements</li>
+        <li class="pl-2">Consent preferences</li>
+      </ul>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
