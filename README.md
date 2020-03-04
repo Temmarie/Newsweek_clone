@@ -13,7 +13,7 @@ Responsive clone of [Newsweek](https://www.newsweek.com/) website.
 - CSS3
 
 ## Live Demo
- [Live Demo](https://raw.githack.com/Temmarie/Newsweek_clone/feature/index.html)
+[Live Demo](https://raw.githack.com/Temmarie/Newsweek_clone/feature/index.html)
 
 👤 **Author**
 
